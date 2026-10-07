@@ -1,0 +1,24 @@
+{
+  "section": "Distributed Systems",
+  "slug": "01-distributed-systems",
+  "entries": [
+    {
+      "idx": 1,
+      "title": "**Java**: _Building Your Own Kafka-like System From Scratch: A Step-by-Step Guide_",
+      "url": "https://github.com/buildthingsuseful/build-your-own-kafka",
+      "http_prior": 200,
+      "link_status": "vivo",
+      "link_evidence": "http 200 https://github.com/buildthingsuseful/build-your-own-kafka",
+      "date": "2025-03-13",
+      "date_kind": "ultima_atualizacao",
+      "date_source": "api_github pushed_at",
+      "language": "Java",
+      "version_note": "versao nao verificada",
+      "category_ok": true,
+      "category_suggestion": null,
+      "alternative": null,
+      "alternative_reason": "Link vivo e repositorio ativo, nao ha necessidade de alternativa.",
+      "verdict": "verificado"
+    }
+  ]
+}

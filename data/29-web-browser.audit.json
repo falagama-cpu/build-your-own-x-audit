@@ -1,0 +1,42 @@
+{
+  "section": "Web Browser",
+  "slug": "29-web-browser",
+  "entries": [
+    {
+      "idx": 1,
+      "title": "**Rust**: _Let's build a browser engine_",
+      "url": "https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html",
+      "http_prior": 200,
+      "link_status": "vivo",
+      "link_evidence": "http 200 https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html",
+      "date": "2014-08-08",
+      "date_kind": "publicacao",
+      "date_source": "pagina (data explícita no artigo: '08 Aug 2014')",
+      "language": "Rust",
+      "version_note": "versao nao verificada (artigo introductorio de 2014; nao há versao do motor mencionada)",
+      "category_ok": true,
+      "category_suggestion": null,
+      "alternative": null,
+      "alternative_reason": "Link vivo e conteudo ativo, nao ha necessidade de alternativa.",
+      "verdict": "verificado"
+    },
+    {
+      "idx": 2,
+      "title": "**Python**: _Browser Engineering_",
+      "url": "https://browser.engineering",
+      "http_prior": 200,
+      "link_status": "vivo",
+      "link_evidence": "http 200 https://browser.engineering",
+      "date": "2024-07-22",
+      "date_kind": "publicacao",
+      "date_source": "openlibrary.org (edicao OUP 2024, ultima edicao 22/07/2024; livro publicado pela Oxford University Press)",
+      "language": "Python",
+      "version_note": "versao nao verificada (livro em Python, sem versao do nucleo do navegador mencionada na pagina)",
+      "category_ok": true,
+      "category_suggestion": null,
+      "alternative": null,
+      "alternative_reason": "Link vivo e conteudo ativo, nao ha necessidade de alternativa.",
+      "verdict": "verificado"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "section": "Visual Recognition System",
+  "slug": "27-visual-recognition-system",
+  "entries": [
+    {
+      "idx": 1,
+      "title": "**Python**: _Developing a License Plate Recognition System with Machine Learning in Python_",
+      "url": "https://medium.com/devcenter/developing-a-license-plate-recognition-system-with-machine-learning-in-python-787833569ccd",
+      "http_prior": 403,
+      "link_status": "bloqueado_bot",
+      "link_evidence": "http 403 (Cloudflare) na URL original; wayback http://web.archive.org/web/20260804145648/https://medium.com/devcenter/developing-a-license-plate-recognition-system-with-machine-learning-in-python-787833569ccd devolve 200 com 135KB HTML, title confirma artigo de Femi Oladeji",
+      "date": "2018-12-17",
+      "date_kind": "publicacao",
+      "date_source": "meta article:published_time (snapshot Wayback 20260804145648)",
+      "language": "Python",
+      "version_note": "versao nao verificada (artigo Medium 2018 sobre ML em Python; bibliotecas especificas nao identificadas no snapshot)",
+      "category_ok": true,
+      "category_suggestion": null,
+      "alternative": "http://web.archive.org/web/20260804145648/https://medium.com/devcenter/developing-a-license-plate-recognition-system-with-machine-learning-in-python-787833569ccd",
+      "alternative_reason": null,
+      "verdict": "parcial"
+    },
+    {
+      "idx": 2,
+      "title": "**Python**: _Building a Facial Recognition Pipeline with Deep Learning in Tensorflow_",
+      "url": "https://hackernoon.com/building-a-facial-recognition-pipeline-with-deep-learning-in-tensorflow-66e7645015b8",
+      "http_prior": 200,
+      "link_status": "vivo",
+      "link_evidence": "http 200 (Hackernoon, Next.js); pagina lida: 'Building a Facial Recognition Pipeline with Deep Learning in Tensorflow' por Cole Murray, 205.940 reads",
+      "date": "2017-07-02",
+      "date_kind": "publicacao",
+      "date_source": "pagina (data de publicacao no artigo: July 2nd, 2017)",
+      "language": "Python",
+      "version_note": "Tensorflow (versao nao verificada); artigo 2017 menciona FaceNet (2015), Dlib, Docker",
+      "category_ok": true,
+      "category_suggestion": null,
+      "alternative": null,
+      "alternative_reason": "link vivo, nenhuma alternativa necessaria",
+      "verdict": "verificado"
+    }
+  ]
+}

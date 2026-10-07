@@ -1,0 +1,24 @@
+{
+ "section": "Voxel Engine",
+ "slug": "28-voxel-engine",
+ "entries": [
+  {
+   "idx": 1,
+   "title": "**C++**: _Let's Make a Voxel Engine_",
+   "url": "https://sites.google.com/site/letsmakeavoxelengine/home",
+   "http_prior": 200,
+   "link_status": "vivo",
+   "link_evidence": "http (200, https://sites.google.com/site/letsmakeavoxelengine/home)",
+   "date": "2020-12-06",
+   "date_kind": "ultima_atualizacao",
+   "date_source": "pagina (atributo updated-at-time epoch=1607286119094 convertido para data)",
+   "language": "C++",
+   "version_note": "C++ com OpenGL (wrapper pessoal sobre OpenGL); versao nao verificada",
+   "category_ok": true,
+   "category_suggestion": null,
+   "alternative": null,
+   "alternative_reason": "Link ativo (HTTP 200); nao necessario substituto.",
+   "verdict": "verificado"
+  }
+ ]
+}

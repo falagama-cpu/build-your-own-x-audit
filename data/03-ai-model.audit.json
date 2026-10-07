@@ -1,0 +1,60 @@
+{
+  "section": "AI Model",
+  "slug": "03-ai-model",
+  "entries": [
+    {
+      "idx": 1,
+      "title": "**Python**: _A Large Language Model (LLM)_",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "http_prior": 200,
+      "link_status": "vivo",
+      "link_evidence": "http 200 https://github.com/rasbt/LLMs-from-scratch",
+      "date": "2026-10-02",
+      "date_kind": "ultima_atualizacao",
+      "date_source": "https://api.github.com/repos/rasbt/LLMs-from-scratch",
+      "language": "Python",
+      "version_note": "versao nao verificada",
+      "category_ok": true,
+      "category_suggestion": null,
+      "alternative": null,
+      "alternative_reason": "Link est\u00e1 ativo e acess\u00edvel, n\u00e3o h\u00e1 necessidade de alternativa",
+      "verdict": "verificado"
+    },
+    {
+      "idx": 2,
+      "title": "**Python**: _Diffusion Models for Image Generation_",
+      "url": "https://huggingface.co/learn/diffusion-course/en/unit1/3",
+      "http_prior": 200,
+      "link_status": "vivo",
+      "link_evidence": "http 200 https://huggingface.co/learn/diffusion-course/en/unit1/3",
+      "date": null,
+      "date_kind": null,
+      "date_source": "data nao encontrada",
+      "language": "Python",
+      "version_note": "versao nao verificada",
+      "category_ok": true,
+      "category_suggestion": null,
+      "alternative": null,
+      "alternative_reason": "Link est\u00e1 ativo e acess\u00edvel, n\u00e3o h\u00e1 necessidade de alternativa",
+      "verdict": "verificado"
+    },
+    {
+      "idx": 3,
+      "title": "**Python**: _RAG for Document Search_",
+      "url": "https://github.com/langchain-ai/rag-from-scratch",
+      "http_prior": 200,
+      "link_status": "vivo",
+      "link_evidence": "http 200 https://github.com/langchain-ai/rag-from-scratch",
+      "date": "2025-06-26",
+      "date_kind": "ultima_atualizacao",
+      "date_source": "https://api.github.com/repos/langchain-ai/rag-from-scratch",
+      "language": "Python",
+      "version_note": "versao nao verificada",
+      "category_ok": true,
+      "category_suggestion": null,
+      "alternative": null,
+      "alternative_reason": "Link est\u00e1 ativo e acess\u00edvel, n\u00e3o h\u00e1 necessidade de alternativa",
+      "verdict": "verificado"
+    }
+  ]
+}
