@@ -1,6 +1,6 @@
 # Auditoria: Web Browser
 
-Total: 2 | falhou: 0 | nao_verificado: 0 | verificado: 2 | parcial: 0
+Total: 2 | parcial: 0 | verificado: 2 | nao_verificado: 0 | falhou: 0
 
 ## 1. **Rust**: _Let's build a browser engine_
 - URL: https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html

@@ -1,6 +1,6 @@
 # Auditoria: Visual Recognition System
 
-Total: 2 | verificado: 1 | parcial: 1 | falhou: 0 | nao_verificado: 0
+Total: 2 | falhou: 0 | parcial: 1 | nao_verificado: 0 | verificado: 1
 
 ## 1. **Python**: _Developing a License Plate Recognition System with Machine Learning in Python_
 - URL: https://medium.com/devcenter/developing-a-license-plate-recognition-system-with-machine-learning-in-python-787833569ccd

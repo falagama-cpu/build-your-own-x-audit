@@ -1,6 +1,6 @@
 # Auditoria: Memory Allocator
 
-Total: 1 | falhou: 0 | nao_verificado: 0 | parcial: 1 | verificado: 0
+Total: 1 | nao_verificado: 0 | parcial: 1 | verificado: 0 | falhou: 0
 
 ## 1. **C**: _Malloc is not magic -- Implementing your own memory allocator_
 - URL: https://medium.com/p/e0354e914402

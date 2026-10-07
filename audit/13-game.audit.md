@@ -1,6 +1,6 @@
 # Auditoria: Game
 
-Total: 34 | parcial: 27 | verificado: 7 | nao_verificado: 0 | falhou: 0
+Total: 34 | parcial: 27 | falhou: 0 | verificado: 7 | nao_verificado: 0
 
 ## 1. **C**: _Handmade Hero_
 - URL: https://handmadehero.org/

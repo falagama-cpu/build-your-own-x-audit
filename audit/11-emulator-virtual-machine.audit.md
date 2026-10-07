@@ -1,6 +1,6 @@
 # Auditoria: Emulator / Virtual Machine
 
-Total: 13 | nao_verificado: 0 | parcial: 1 | verificado: 12 | falhou: 0
+Total: 13 | verificado: 12 | nao_verificado: 0 | parcial: 1 | falhou: 0
 
 ## 1. **C**: _Home-grown bytecode interpreters_
 - URL: https://medium.com/bumble-tech/home-grown-bytecode-interpreters-51e12d59b25c

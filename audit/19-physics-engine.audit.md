@@ -1,6 +1,6 @@
 # Auditoria: Physics Engine
 
-Total: 7 | parcial: 1 | verificado: 6 | falhou: 0 | nao_verificado: 0
+Total: 7 | nao_verificado: 0 | parcial: 1 | falhou: 0 | verificado: 6
 
 ## 1. **C**: _Video Game Physics Tutorial_
 - URL: https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics

@@ -1,6 +1,6 @@
 # Auditoria: Search Engine
 
-Total: 6 | verificado: 4 | nao_verificado: 0 | falhou: 1 | parcial: 1
+Total: 6 | falhou: 1 | parcial: 1 | verificado: 4 | nao_verificado: 0
 
 ## 1. **CSS**: _A search engine in CSS_
 - URL: https://stories.algolia.com/a-search-engine-in-css-b5ec4e902e97
