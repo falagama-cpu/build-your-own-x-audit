@@ -1,0 +1,6 @@
+{
+ "section": "Cloud, VM, VPS & SaaS",
+ "title": "Cloud Security & Compliance",
+ "scope": "Seguranca em nuvem/VPS: hardening de servidor, isolamento entre clientes (tenants), IAM/RBAC, gestao de segredos (Vault), criptografia em repouso e em transito, backup seguro, deteccao de intrusao, LGPD e GDPR aplicadas a SaaS.",
+ "entries": []
+}

@@ -131,33 +131,9 @@ It's a great way to learn.
 
 #### Build your own `Cloud, VM, VPS & SaaS`
 
-##### Virtual Machine / Hypervisor
+_Learning path: from the hardware up to the business model. Follow the steps in order._
 
-* [**KVM/QEMU**: _The Definitive KVM (Kernel-based Virtual Machine) API Documentation_](https://www.kernel.org/doc/html/latest/virt/kvm/api.html) <sub>🆕 · 📅 2026</sub>
-* [**Python**: _Writing a KVM hypervisor VMM in Python_](https://devever.net/~hl/kvm) <sub>🆕 · 📅 2015</sub>
-* [**Go**: _Lets build a Hypervisor with KVM_](https://evilcookie.de/lets-build-a-hypervisor-with-kvm.html) <sub>🆕 · 📅 2021</sub>
-* [**Rust**: _You Are The BIOS Now: Building A Hypervisor In Rust With KVM_](https://yeet.cx/blog/you-are-the-bios-now) <sub>🆕 · 📅 2023</sub>
-* [**C**: _microkvm — A step-by-step KVM-based hypervisor for learning virtualization internals_](https://github.com/yuto-ohnuki/microkvm) <sub>🆕 · 📅 2026</sub>
-* [**C**: _miniSVM — a mini x86 hypervisor_](https://github.com/Vu2n/miniSVM) <sub>🆕 · 📅 2026</sub>
-* [**Zig**: _Writing Hypervisor in Zig_](https://hv.smallkirby.com/en/) <sub>🆕 · 📅 2025</sub>
-* [**Rust**: _Building a KVM Virtual Machine in Rust: Memory Setup_](https://poljak-engineering.com/posts/kvm-rust-part2/) <sub>🆕 · 📅 2026</sub>
-
-##### VPS Host Server
-
-* [**KVM/QEMU**: _libvirt: Walk-through using QEMU/KVM with libvirt on Ubuntu_](https://wiki.libvirt.org/UbuntuKVMWalkthrough.html) <sub>🆕 · 📅 2026</sub>
-* [**KVM/QEMU**: _QEMU KVM Setup & libvirt Management Complete Tutorial_](https://www.denisrybalka.com/blog/2023-09-20-linux-virtualization) <sub>🆕 · 📅 2023</sub>
-* [**KVM/QEMU**: _Libvirt - Ubuntu Server documentation_](https://ubuntu.com/server/docs/how-to/virtualisation/libvirt) <sub>🆕 · 📅 2026</sub>
-* [**KVM/QEMU**: _Setting up a KVM VM Host Server — SLES 15 SP7_](https://documentation.suse.com/sles/15-SP7/html/SLES-all/cha-qemu-host.html) <sub>🆕 · 📅 2026</sub>
-* [**KVM/QEMU**: _How to set up a network bridge for virtual machine communication_](https://www.redhat.com/en/blog/setup-network-bridge-VM) <sub>🆕 · 📅 2025</sub>
-* [**KVM/QEMU**: _libvirt: Virtual Networking_](https://wiki.libvirt.org/VirtualNetworking.html) <sub>🆕 · 📅 2026</sub>
-* [**ZFS**: _Configure a ZFS Storage Pool in KVM_](https://computingforgeeks.com/how-to-configure-a-zfs-storage-pool-in-kvm) <sub>🆕 · 📅 2026</sub>
-* [**Proxmox VE**: _Proxmox VE Administration Guide_](https://pve.proxmox.com/pve-docs/pve-admin-guide.html) <sub>🆕 · 📅 2026</sub>
-* [**Ceph**: _Deploy Hyper-Converged Ceph Cluster_](https://pve.proxmox.com/pve-docs/chapter-pveceph.html) <sub>🆕 · 📅 2026</sub>
-* [**Proxmox VE**: _Backup and Restore — Proxmox VE_](https://pve.proxmox.com/pve-docs-7/chapter-vzdump.html) <sub>🆕 · 📅 2023</sub>
-* [**Proxmox VE**: _How to Install & Configure Proxmox VE | Full Lab Setup + Real-World Implementation_](https://www.youtube.com/watch?v=C3Z2YSRO22I) <sub>🆕 · 📅 2026</sub>
-* [**KVM/QEMU**: _Efficient live full disk backup_](https://libvirt.org/kbase/live_full_disk_backup.html) <sub>🆕 · 📅 2026</sub>
-
-##### Hardware & Dedicated Memory for VMs
+##### 1. Hardware & Dedicated Memory for VMs
 
 * [**KVM/QEMU**: _KVM & Hypervisor Masterclass_](https://kldload.com/masterclass/kvm-hypervisor) <sub>🆕 · 📅 2025</sub>
 * [**KVM/QEMU**: _Memory Overcommit in Virtualization: Complete Guide_](https://cubepath.com/docs/virtualization-vps/memory-overcommit-in-virtualization) <sub>🆕 · 📅 2025</sub>
@@ -172,7 +148,18 @@ It's a great way to learn.
 * [**KVM/QEMU**: _Libvirt/Qemu Memory Ballooning - Deduplication_](https://www.youtube.com/watch?v=FItUXU3-OV8) <sub>🆕 · 📅 2023</sub>
 * [**KVM/QEMU**: _Dynamic Memory Management_](https://pve.proxmox.com/wiki/Dynamic_Memory_Management) <sub>🆕 · 📅 2025</sub>
 
-##### Operating System Images for VM/VPS
+##### 2. Virtual Machine / Hypervisor
+
+* [**KVM/QEMU**: _The Definitive KVM (Kernel-based Virtual Machine) API Documentation_](https://www.kernel.org/doc/html/latest/virt/kvm/api.html) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Writing a KVM hypervisor VMM in Python_](https://devever.net/~hl/kvm) <sub>🆕 · 📅 2015</sub>
+* [**Go**: _Lets build a Hypervisor with KVM_](https://evilcookie.de/lets-build-a-hypervisor-with-kvm.html) <sub>🆕 · 📅 2021</sub>
+* [**Rust**: _You Are The BIOS Now: Building A Hypervisor In Rust With KVM_](https://yeet.cx/blog/you-are-the-bios-now) <sub>🆕 · 📅 2023</sub>
+* [**C**: _microkvm — A step-by-step KVM-based hypervisor for learning virtualization internals_](https://github.com/yuto-ohnuki/microkvm) <sub>🆕 · 📅 2026</sub>
+* [**C**: _miniSVM — a mini x86 hypervisor_](https://github.com/Vu2n/miniSVM) <sub>🆕 · 📅 2026</sub>
+* [**Zig**: _Writing Hypervisor in Zig_](https://hv.smallkirby.com/en/) <sub>🆕 · 📅 2025</sub>
+* [**Rust**: _Building a KVM Virtual Machine in Rust: Memory Setup_](https://poljak-engineering.com/posts/kvm-rust-part2/) <sub>🆕 · 📅 2026</sub>
+
+##### 3. Operating System Images for VM/VPS
 
 * [**HCL (Packer)**: _Build an image | Packer_](https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started-build-image) <sub>🆕 · 📅 2026</sub>
 * [**HCL (Packer)**: _Provision | Packer_](https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started-provision) <sub>🆕 · 📅 2026</sub>
@@ -187,7 +174,22 @@ It's a great way to learn.
 * [**C++ (IncludeOS)**: _Get Started – includeOS_](https://includeos.org/get-started.html) <sub>🆕 · 📅 2022</sub>
 * [**Windows / KVM**: _Driver installation - virtio-win/kvm-guest-drivers-windows_](https://github.com/virtio-win/kvm-guest-drivers-windows/wiki/Driver-installation) <sub>🆕 · 📅 2026</sub>
 
-##### Client Access & Integration for VM/VPS
+##### 4. VPS Host Server
+
+* [**KVM/QEMU**: _libvirt: Walk-through using QEMU/KVM with libvirt on Ubuntu_](https://wiki.libvirt.org/UbuntuKVMWalkthrough.html) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _QEMU KVM Setup & libvirt Management Complete Tutorial_](https://www.denisrybalka.com/blog/2023-09-20-linux-virtualization) <sub>🆕 · 📅 2023</sub>
+* [**KVM/QEMU**: _Libvirt - Ubuntu Server documentation_](https://ubuntu.com/server/docs/how-to/virtualisation/libvirt) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _Setting up a KVM VM Host Server — SLES 15 SP7_](https://documentation.suse.com/sles/15-SP7/html/SLES-all/cha-qemu-host.html) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _How to set up a network bridge for virtual machine communication_](https://www.redhat.com/en/blog/setup-network-bridge-VM) <sub>🆕 · 📅 2025</sub>
+* [**KVM/QEMU**: _libvirt: Virtual Networking_](https://wiki.libvirt.org/VirtualNetworking.html) <sub>🆕 · 📅 2026</sub>
+* [**ZFS**: _Configure a ZFS Storage Pool in KVM_](https://computingforgeeks.com/how-to-configure-a-zfs-storage-pool-in-kvm) <sub>🆕 · 📅 2026</sub>
+* [**Proxmox VE**: _Proxmox VE Administration Guide_](https://pve.proxmox.com/pve-docs/pve-admin-guide.html) <sub>🆕 · 📅 2026</sub>
+* [**Ceph**: _Deploy Hyper-Converged Ceph Cluster_](https://pve.proxmox.com/pve-docs/chapter-pveceph.html) <sub>🆕 · 📅 2026</sub>
+* [**Proxmox VE**: _Backup and Restore — Proxmox VE_](https://pve.proxmox.com/pve-docs-7/chapter-vzdump.html) <sub>🆕 · 📅 2023</sub>
+* [**Proxmox VE**: _How to Install & Configure Proxmox VE | Full Lab Setup + Real-World Implementation_](https://www.youtube.com/watch?v=C3Z2YSRO22I) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _Efficient live full disk backup_](https://libvirt.org/kbase/live_full_disk_backup.html) <sub>🆕 · 📅 2026</sub>
+
+##### 5. Client Access & Integration for VM/VPS
 
 * [**Python**: _SSH API for Linux VPS automation_](https://github.com/vibheksoni/ssh-api) <sub>🆕 · 📅 2024</sub>
 * [**WireGuard**: _How to Set Up Your Own WireGuard VPN Server on a VPS_](https://www.lineserve.net/blog/how-to-set-up-your-own-vpn-server) <sub>🆕 · 📅 2023</sub>
@@ -202,7 +204,7 @@ It's a great way to learn.
 * [**Python**: _PVEmanager - Self-hosted Proxmox Panel_](https://github.com/markmorado/pvemanager) <sub>🆕 · 📅 2025</sub>
 * [**Conceitos (Proxmox API)**: _Proxmox API Viewer_](https://pve.proxmox.com/pve-docs/api-viewer/index.html) <sub>🆕 · 📅 2026</sub>
 
-##### Accounts, Billing & VPS Provisioning
+##### 6. Accounts, Billing & VPS Provisioning
 
 * [**PHP**: _Paymenter: Free and open-source webshop solution for hostings_](https://github.com/Paymenter/Paymenter) <sub>🆕 · 📅 2026</sub>
 * [**PHP**: _Virtualizor | Paymenter Extension Docs_](https://paymenter.org/docs/extensions/virtualizor) <sub>🆕</sub>
@@ -217,7 +219,7 @@ It's a great way to learn.
 * [**Node.js**: _How I Built a Multi-tenant SaaS Product in Node.js_](https://dev.to/cod3kid/how-i-built-a-multi-tenant-saas-product-in-nodejs-3m0b) <sub>🆕 · 📅 2022</sub>
 * [**Ruby**: _Building a Subscription Billing System From Scratch with Rails and Stripe_](https://dev.to/jakemmarsh/building-a-subscription-billing-system-from-scratch-with-rails-and-stripe-3o2k) <sub>🆕 · 📅 2019</sub>
 
-##### Your Own Cloud
+##### 7. Your Own Cloud
 
 * [**Python/Shell**: _DevStack — All-In-One Single Machine_](https://docs.openstack.org/devstack/latest/guides/single-machine.html) <sub>🆕 · 📅 2026</sub>
 * [**Proxmox**: _Proxmox VE Cluster_](https://pve.proxmox.com/wiki/Proxmox_VE_Cluster) <sub>🆕</sub>
@@ -232,7 +234,7 @@ It's a great way to learn.
 * [**Proxmox**: _From Zero to Proxmox Cluster: Building a Homelab on Old Hardware_](https://dev.to/fedya_serafiev/from-zero-to-proxmox-cluster-building-a-homelab-on-old-hardware-4no9) <sub>🆕 · 📅 2026</sub>
 * [**Kubernetes/Shell**: _Building a Kubernetes Cluster from Scratch with K3s_](https://docs.k3s.io/) <sub>🆕 · 📅 2026</sub>
 
-##### Platform as a Service (Heroku-like)
+##### 8. Platform as a Service (Heroku-like)
 
 * [**Python**: _How to Build Your Own Heroku with Dokku_](https://www.freecodecamp.org/news/how-to-build-your-on-heroku-with-dokku) <sub>🆕 · 📅 2022</sub>
 * [**Conceitos**: _Dokku Has a Free API: Build Your Own Heroku on a $5 VPS_](https://dev.to/0012303/dokku-has-a-free-api-build-your-own-heroku-on-a-5-vps-422o) <sub>🆕 · 📅 2026</sub>
@@ -252,7 +254,7 @@ It's a great way to learn.
 * [**Conceitos**: _The building blocks of a Cloud Native Buildpack_](https://buildpacks.io/docs/for-buildpack-authors/tutorials/basic-buildpack/02_building-blocks-cnb/) <sub>🆕 · 📅 2024</sub>
 * [**Conceitos**: _Pack CLI Tutorial: Build your own PaaS with buildpacks_](https://buildpacks.io/docs/app-developer-guide/build-an-app/) <sub>🆕 · 📅 2024</sub>
 
-##### Build a SaaS
+##### 9. Build a SaaS
 
 * [**Go**: _LastSaaS: The last SaaS boilerplate you'll ever need_](https://github.com/jonradoff/lastsaas) <sub>🆕 · 📅 2026</sub>
 * [**TypeScript**: _SaaS App Full Course 2026 | Launch Your SaaS in Under 7 Days with Next JS, Supabase & Payments_](https://www.youtube.com/watch?v=XUkNR-JfHwo) <sub>🆕 · 📅 2025</sub>
@@ -267,7 +269,7 @@ It's a great way to learn.
 * [**Conceitos**: _Assinaturas — Visão geral (Subscriptions)_](https://www.mercadopago.com.br/developers/pt/docs/subscriptions/overview) <sub>🆕</sub>
 * [**TypeScript**: _Stripe Subscriptions in a SaaS (Step-by-Step With Code)_](https://dev.to/mdhemalakhand1999/stripe-subscriptions-in-a-saas-step-by-step-with-code-1lkd) <sub>🆕 · 📅 2026</sub>
 
-##### SaaS Models & Architecture
+##### 10. SaaS Models & Architecture
 
 * [**Conceitos**: _General design principles - SaaS Lens (AWS Well-Architected Framework)_](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/general-design-principles.html) <sub>🆕 · 📅 2026</sub>
 * [**TypeScript**: _Multi-Tenant SaaS Architecture in 3 Simple Steps_](https://www.youtube.com/watch?v=bFLGwVyIotA) <sub>🆕 · 📅 2025</sub>

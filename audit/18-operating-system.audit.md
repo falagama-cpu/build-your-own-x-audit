@@ -1,6 +1,6 @@
 # Auditoria: Operating System
 
-Total: 19 | verificado: 6 | nao_verificado: 1 | parcial: 12 | falhou: 0
+Total: 19 | verificado: 6 | parcial: 12 | falhou: 0 | nao_verificado: 1
 
 ## 1. **Assembly**: _Writing a Tiny x86 Bootloader_
 - URL: http://joebergeron.io/posts/post_two.html

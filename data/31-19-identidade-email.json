@@ -1,0 +1,6 @@
+{
+ "section": "Cloud, VM, VPS & SaaS",
+ "title": "Identity, SSO & Transactional Email for SaaS",
+ "scope": "Identidade e comunicacao no SaaS: OAuth2/OpenID Connect do zero, SAML/SSO corporativo, Keycloak/Authentik/Zitadel, sessoes e MFA, convites e times multi-tenant, e-mail transacional (SMTP, SPF/DKIM/DMARC, entregabilidade).",
+ "entries": []
+}

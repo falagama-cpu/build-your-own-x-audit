@@ -1,0 +1,6 @@
+{
+ "section": "Cloud, VM, VPS & SaaS",
+ "title": "Containers & Kubernetes Internals",
+ "scope": "Orquestracao por dentro: Kubernetes the Hard Way, scheduler e controller do zero, mini-orquestrador de containers, CNI/CSI explicados, service mesh, operadores Kubernetes.",
+ "entries": []
+}

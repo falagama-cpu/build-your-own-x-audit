@@ -1,0 +1,6 @@
+{
+ "section": "Cloud, VM, VPS & SaaS",
+ "title": "Observability & Monitoring",
+ "scope": "Observabilidade do zero: metricas (Prometheus, exporters), logs centralizados, tracing distribuido (OpenTelemetry), alertas, uptime/status page, construir um sistema de monitoramento simples do zero, SLO e error budget na pratica.",
+ "entries": []
+}

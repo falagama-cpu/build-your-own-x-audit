@@ -1,6 +1,6 @@
 # Auditoria: BitTorrent Client
 
-Total: 5 | nao_verificado: 0 | verificado: 3 | falhou: 0 | parcial: 2
+Total: 5 | parcial: 2 | nao_verificado: 0 | falhou: 0 | verificado: 3
 
 ## 1. **C#**: _Building a BitTorrent client from scratch in C#_
 - URL: https://www.seanjoflynn.com/research/bittorrent.html

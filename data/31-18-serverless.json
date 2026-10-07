@@ -1,0 +1,6 @@
+{
+ "section": "Cloud, VM, VPS & SaaS",
+ "title": "Serverless & Functions as a Service",
+ "scope": "Serverless do zero: construir o proprio 'Lambda' (runtime de funcoes, cold start, isolamento com microVMs/Firecracker ou WebAssembly), internals de OpenFaaS/Knative/Fission, edge functions.",
+ "entries": []
+}

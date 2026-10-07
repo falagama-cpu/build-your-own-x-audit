@@ -1,6 +1,6 @@
 # Auditoria: Docker
 
-Total: 6 | parcial: 0 | verificado: 6 | falhou: 0 | nao_verificado: 0
+Total: 6 | falhou: 0 | parcial: 0 | nao_verificado: 0 | verificado: 6
 
 ## 1. **C**: _Linux containers in 500 lines of code_
 - URL: https://blog.lizzie.io/linux-containers-in-500-loc.html

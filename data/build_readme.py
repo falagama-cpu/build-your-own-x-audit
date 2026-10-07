@@ -152,18 +152,27 @@ def main():
             out[i + 1:i + 1] = new
             n += len(new)
 
-    # seção nova 31 (descoberta): entra em ordem alfabética, antes de Command-Line Tool
+    # seção nova 31 (descoberta): entra em ordem alfabética, antes de Command-Line Tool.
+    # Subtópicos na ordem da trilha de aprendizado (tools/topic31.json: learning_path).
+    try:
+        path = json.load(open(os.path.join(B, "tools", "topic31.json"), encoding="utf-8")).get("learning_path", [])
+    except Exception:
+        path = []
+    rank = {n: i for i, n in enumerate(path)}
     subs = []
-    for p in sorted(glob.glob(os.path.join(B, "sections", "31-*.json"))):
+    for p in glob.glob(os.path.join(B, "sections", "31-*.json")):
         d = json.load(open(p, encoding="utf-8"))
         E = d.get("entries") or []
         if 5 <= len(E) and all(e.get("verdict") for e in E):
-            subs.append(d)
+            nn = os.path.basename(p).split("-")[1]
+            subs.append((rank.get(nn, 999), nn, d))
+    subs = [d for _, _, d in sorted(subs, key=lambda x: (x[0], x[1]))]
     if subs:
         name = subs[0]["section"]
-        block, seen = [f"#### Build your own `{name}`", ""], set()
-        for d in subs:
-            block += [f"##### {d['title']}", ""]
+        block, seen = [f"#### Build your own `{name}`", "",
+                       "_Learning path: from the hardware up to the business model. Follow the steps in order._", ""], set()
+        for step, d in enumerate(subs, 1):
+            block += [f"##### {step}. {d['title']}", ""]
             for e in d["entries"]:
                 if e["url"] in seen:
                     continue

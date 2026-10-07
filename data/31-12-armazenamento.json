@@ -1,0 +1,6 @@
+{
+ "section": "Cloud, VM, VPS & SaaS",
+ "title": "Cloud Storage",
+ "scope": "Armazenamento para nuvem do zero: block storage (NBD, iSCSI), thin provisioning e snapshots (qcow2, LVM), object storage com API S3 implementada do zero, sistemas de arquivos distribuidos, replicacao e erasure coding.",
+ "entries": []
+}

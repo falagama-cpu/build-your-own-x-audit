@@ -1,0 +1,6 @@
+{
+ "section": "Cloud, VM, VPS & SaaS",
+ "title": "Infrastructure as Code & CI/CD",
+ "scope": "Automacao de infraestrutura: Terraform e OpenTofu do zero, escrever um provider Terraform, Ansible, GitOps (Argo CD/Flux), pipeline de CI/CD do zero, deploy blue-green e canary.",
+ "entries": []
+}

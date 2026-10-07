@@ -1,0 +1,6 @@
+{
+ "section": "Cloud, VM, VPS & SaaS",
+ "title": "High Availability, Scaling & Disaster Recovery",
+ "scope": "Disponibilidade e escala: migracao ao vivo de VMs, clusters com failover, replicacao de banco, autoscaling, multi-regiao, plano de recuperacao de desastre (RPO/RTO), planejamento de capacidade e custos (FinOps).",
+ "entries": []
+}

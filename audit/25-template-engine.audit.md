@@ -1,6 +1,6 @@
 # Auditoria: Template Engine
 
-Total: 5 | nao_verificado: 0 | verificado: 4 | falhou: 0 | parcial: 1
+Total: 5 | verificado: 4 | parcial: 1 | nao_verificado: 0 | falhou: 0
 
 ## 1. **JavaScript**: _JavaScript template engine in just 20 lines_
 - URL: http://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line

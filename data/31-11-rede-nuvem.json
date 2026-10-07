@@ -1,0 +1,6 @@
+{
+ "section": "Cloud, VM, VPS & SaaS",
+ "title": "Cloud Networking",
+ "scope": "Rede para nuvem/VPS do zero: VPC e SDN, redes overlay (VXLAN, Geneve), Open vSwitch, namespaces e veth, IPAM/DHCP, NAT e firewall (nftables/iptables), balanceamento L4/L7, IPv6, BGP basico para provedores, mitigacao de DDoS.",
+ "entries": []
+}
