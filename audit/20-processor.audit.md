@@ -1,6 +1,6 @@
 # Auditoria: Processor
 
-Total: 1 | parcial: 0 | falhou: 0 | nao_verificado: 0 | verificado: 1
+Total: 1 | falhou: 0 | nao_verificado: 0 | parcial: 0 | verificado: 1
 
 ## 1. **Verilog**: _From Blinker to RISC-V_
 - URL: https://github.com/BrunoLevy/learn-fpga/tree/master/FemtoRV/TUTORIALS/FROM_BLINKER_TO_RISCV

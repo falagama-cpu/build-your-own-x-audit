@@ -1,6 +1,6 @@
 # Auditoria: Blockchain / Cryptocurrency
 
-Total: 21 | parcial: 14 | nao_verificado: 0 | falhou: 0 | verificado: 7
+Total: 21 | verificado: 7 | parcial: 14 | nao_verificado: 0 | falhou: 0
 
 ## 1. **ATS**: _Functional Blockchain_
 - URL: https://beta.observablehq.com/@galletti94/functional-blockchain

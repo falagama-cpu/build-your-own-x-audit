@@ -23,7 +23,7 @@ L = {
                   "This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), "
                   "publication / last-update date with its source, and category. Last audit: **{date}** · {done}/30 sections · "
                   "{n} tutorials · {fixed} links replaced. Per-section reports: [`audit/`](audit/).",
-        "legend": "> Legend: 📅 year of publication or last update · 🔁 original link was dead, replaced · ↪ moved, URL updated · 🏷 suggested category",
+        "legend": "> Legend: 📅 year of publication or last update · 🔁 original link was dead, replaced · ↪ moved, URL updated · 🏷 suggested category · 🆕 new section added by this edition",
         "dead": "🔁 original dead: {u}",
         "moved": "↪",
         "year": "📅 {y}",
@@ -34,7 +34,7 @@ L = {
                   "Esta edição verifica cada tutorial: link vivo/morto (com Wayback ou substituto equivalente para os mortos), "
                   "data de publicação / última atualização com fonte, e categoria. Última auditoria: **{date}** · {done}/30 seções · "
                   "{n} tutoriais · {fixed} links substituídos. Relatórios por seção: [`audit/`](audit/).",
-        "legend": "> Legenda: 📅 ano de publicação ou última atualização · 🔁 link original morto, substituído · ↪ mudou de endereço, URL atualizada · 🏷 categoria sugerida",
+        "legend": "> Legenda: 📅 ano de publicação ou última atualização · 🔁 link original morto, substituído · ↪ mudou de endereço, URL atualizada · 🏷 categoria sugerida · 🆕 seção nova desta edição",
         "dead": "🔁 original morto: {u}",
         "moved": "↪",
         "year": "📅 {y}",
@@ -100,6 +100,34 @@ def main():
             out.append(f"* [{title}]({url}){rest}{suffix}")
             continue
         out.append(line)
+
+    # seção nova 31 (descoberta): entra em ordem alfabética, antes de Command-Line Tool
+    subs = []
+    for p in sorted(glob.glob(os.path.join(B, "sections", "31-*.json"))):
+        d = json.load(open(p, encoding="utf-8"))
+        E = d.get("entries") or []
+        if 5 <= len(E) and all(e.get("verdict") for e in E):
+            subs.append(d)
+    if subs:
+        name = subs[0]["section"]
+        block, seen = [f"#### Build your own `{name}`", ""], set()
+        for d in subs:
+            block += [f"##### {d['title']}", ""]
+            for e in d["entries"]:
+                if e["url"] in seen:
+                    continue
+                seen.add(e["url"])
+                notes = ["🆕"]
+                if e.get("date") and e.get("date_source") != "data nao encontrada":
+                    notes.append(t["year"].format(y=str(e["date"])[:4]))
+                block.append(f"* [**{e['language']}**: _{e['title']}_]({e['url']}) <sub>{' · '.join(notes)}</sub>")
+            block.append("")
+        anchor = "build-your-own-" + re.sub(r"[^a-z0-9 -]", "", name.lower()).replace(" ", "-")
+        i = next(i for i, l in enumerate(out) if l.startswith("* [Command-Line Tool]"))
+        out.insert(i, f"* [{name}](#{anchor}) 🆕")
+        j = next(i for i, l in enumerate(out) if l.startswith("#### Build your own `Command-Line Tool`"))
+        out[j:j] = block
+        n += len(seen)
 
     # banner logo depois do título principal
     banner = [

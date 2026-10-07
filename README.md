@@ -2,9 +2,9 @@
 
 ## Build your own &lt;insert-technology-here&gt;
 
-> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-06** · 29/30 sections · 286 tutorials · 7 links replaced. Per-section reports: [`audit/`](audit/).
+> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-07** · 29/30 sections · 407 tutorials · 7 links replaced. Per-section reports: [`audit/`](audit/).
 >
-> Legend: 📅 year of publication or last update · 🔁 original link was dead, replaced · ↪ moved, URL updated · 🏷 suggested category
+> Legend: 📅 year of publication or last update · 🔁 original link was dead, replaced · ↪ moved, URL updated · 🏷 suggested category · 🆕 new section added by this edition
 
 
 This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch. 
@@ -19,6 +19,7 @@ It's a great way to learn.
 * [BitTorrent Client](#build-your-own-bittorrent-client)
 * [Blockchain / Cryptocurrency](#build-your-own-blockchain--cryptocurrency)
 * [Bot](#build-your-own-bot)
+* [Cloud, VM, VPS & SaaS](#build-your-own-cloud-vm-vps--saas) 🆕
 * [Command-Line Tool](#build-your-own-command-line-tool)
 * [Database](#build-your-own-database)
 * [Docker](#build-your-own-docker)
@@ -127,6 +128,159 @@ It's a great way to learn.
 * [**Python**: _Creating Reddit Bot with Python & PRAW_](https://www.youtube.com/playlist?list=PLIFBTFgFpoJ9vmYYlfxRFV6U_XhG-4fpP) [video]
 * [**R**: _Build A Cryptocurrency Trading Bot with R_](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
 * [**Rust**: _A bot for Starcraft in Rust, C or any other language_](https://habr.com/en/post/436254/)
+
+#### Build your own `Cloud, VM, VPS & SaaS`
+
+##### Virtual Machine / Hypervisor
+
+* [**KVM/QEMU**: _The Definitive KVM (Kernel-based Virtual Machine) API Documentation_](https://www.kernel.org/doc/html/latest/virt/kvm/api.html) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Writing a KVM hypervisor VMM in Python_](https://devever.net/~hl/kvm) <sub>🆕 · 📅 2015</sub>
+* [**Go**: _Lets build a Hypervisor with KVM_](https://evilcookie.de/lets-build-a-hypervisor-with-kvm.html) <sub>🆕 · 📅 2021</sub>
+* [**Rust**: _You Are The BIOS Now: Building A Hypervisor In Rust With KVM_](https://yeet.cx/blog/you-are-the-bios-now) <sub>🆕 · 📅 2023</sub>
+* [**C**: _microkvm — A step-by-step KVM-based hypervisor for learning virtualization internals_](https://github.com/yuto-ohnuki/microkvm) <sub>🆕 · 📅 2026</sub>
+* [**C**: _miniSVM — a mini x86 hypervisor_](https://github.com/Vu2n/miniSVM) <sub>🆕 · 📅 2026</sub>
+* [**Zig**: _Writing Hypervisor in Zig_](https://hv.smallkirby.com/en/) <sub>🆕 · 📅 2025</sub>
+* [**Rust**: _Building a KVM Virtual Machine in Rust: Memory Setup_](https://poljak-engineering.com/posts/kvm-rust-part2/) <sub>🆕 · 📅 2026</sub>
+
+##### VPS Host Server
+
+* [**KVM/QEMU**: _libvirt: Walk-through using QEMU/KVM with libvirt on Ubuntu_](https://wiki.libvirt.org/UbuntuKVMWalkthrough.html) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _QEMU KVM Setup & libvirt Management Complete Tutorial_](https://www.denisrybalka.com/blog/2023-09-20-linux-virtualization) <sub>🆕 · 📅 2023</sub>
+* [**KVM/QEMU**: _Libvirt - Ubuntu Server documentation_](https://ubuntu.com/server/docs/how-to/virtualisation/libvirt) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _Setting up a KVM VM Host Server — SLES 15 SP7_](https://documentation.suse.com/sles/15-SP7/html/SLES-all/cha-qemu-host.html) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _How to set up a network bridge for virtual machine communication_](https://www.redhat.com/en/blog/setup-network-bridge-VM) <sub>🆕 · 📅 2025</sub>
+* [**KVM/QEMU**: _libvirt: Virtual Networking_](https://wiki.libvirt.org/VirtualNetworking.html) <sub>🆕 · 📅 2026</sub>
+* [**ZFS**: _Configure a ZFS Storage Pool in KVM_](https://computingforgeeks.com/how-to-configure-a-zfs-storage-pool-in-kvm) <sub>🆕 · 📅 2026</sub>
+* [**Proxmox VE**: _Proxmox VE Administration Guide_](https://pve.proxmox.com/pve-docs/pve-admin-guide.html) <sub>🆕 · 📅 2026</sub>
+* [**Ceph**: _Deploy Hyper-Converged Ceph Cluster_](https://pve.proxmox.com/pve-docs/chapter-pveceph.html) <sub>🆕 · 📅 2026</sub>
+* [**Proxmox VE**: _Backup and Restore — Proxmox VE_](https://pve.proxmox.com/pve-docs-7/chapter-vzdump.html) <sub>🆕 · 📅 2023</sub>
+* [**Proxmox VE**: _How to Install & Configure Proxmox VE | Full Lab Setup + Real-World Implementation_](https://www.youtube.com/watch?v=C3Z2YSRO22I) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _Efficient live full disk backup_](https://libvirt.org/kbase/live_full_disk_backup.html) <sub>🆕 · 📅 2026</sub>
+
+##### Hardware & Dedicated Memory for VMs
+
+* [**KVM/QEMU**: _KVM & Hypervisor Masterclass_](https://kldload.com/masterclass/kvm-hypervisor) <sub>🆕 · 📅 2025</sub>
+* [**KVM/QEMU**: _Memory Overcommit in Virtualization: Complete Guide_](https://cubepath.com/docs/virtualization-vps/memory-overcommit-in-virtualization) <sub>🆕 · 📅 2025</sub>
+* [**Conceitos**: _Memory Virtualization_](https://kernel-internals.org/virtualization/kvm-memory/) <sub>🆕 · 📅 2026</sub>
+* [**C**: _The x86 kvm shadow mmu_](https://docs.kernel.org/virt/kvm/x86/mmu.html) <sub>🆕 · 📅 2026</sub>
+* [**C**: _Transparent Hugepage Support_](https://docs.kernel.org/admin-guide/mm/transhuge.html) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _How to Configure CPU Pinning and NUMA for KVM Guests_](https://cubepath.com/docs/virtualization-vps/cpu-pinning-and-numa-configuration) <sub>🆕 · 📅 2025</sub>
+* [**KVM/QEMU**: _9.3. libvirt NUMA Tuning_](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/virtualization_tuning_and_optimization_guide/sect-virtualization_tuning_optimization_guide-numa-numa_and_libvirt) <sub>🆕 · 📅 2018</sub>
+* [**KVM/QEMU**: _KVM tuning_](https://docs.rockylinux.org/latest/guides/virtualization/kvm_tuning/) <sub>🆕 · 📅 2025</sub>
+* [**KVM/QEMU**: _Virtualisation with QEMU/KVM (deep dive)_](https://linuxjunkies.org/guides/virtualisation-with-qemu-kvm) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _PCI passthrough via OVMF_](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF) <sub>🆕 · 📅 2026</sub>
+* [**KVM/QEMU**: _Libvirt/Qemu Memory Ballooning - Deduplication_](https://www.youtube.com/watch?v=FItUXU3-OV8) <sub>🆕 · 📅 2023</sub>
+* [**KVM/QEMU**: _Dynamic Memory Management_](https://pve.proxmox.com/wiki/Dynamic_Memory_Management) <sub>🆕 · 📅 2025</sub>
+
+##### Operating System Images for VM/VPS
+
+* [**HCL (Packer)**: _Build an image | Packer_](https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started-build-image) <sub>🆕 · 📅 2026</sub>
+* [**HCL (Packer)**: _Provision | Packer_](https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started-provision) <sub>🆕 · 📅 2026</sub>
+* [**HCL (Packer) / PowerShell**: _Build a Windows image | Packer_](https://developer.hashicorp.com/packer/tutorials/cloud-production/aws-windows-image) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos (mkosi)**: _A re-introduction to mkosi -- A Tool for Generating OS Images_](https://0pointer.net/blog/a-re-introduction-to-mkosi-a-tool-for-generating-os-images.html) <sub>🆕 · 📅 2026</sub>
+* [**mkosi / Fedora**: _Playing Around With Mkosi - Part I_](https://gridhead.net/playing-around-with-mkosi-part-i/) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos (mkosi)**: _mkosi — Build Bespoke OS Images_](https://mkosi.systemd.io/) <sub>🆕 · 📅 2026</sub>
+* [**YAML (cloud-config)**: _All cloud config examples_](https://docs.cloud-init.io/en/latest/reference/examples.html) <sub>🆕 · 📅 2026</sub>
+* [**C (kernel)**: _How to Build a Custom Linux Kernel For Qemu Using Docker_](https://mgalgs.io/2021/03/23/how-to-build-a-custom-linux-kernel-for-qemu-using-docker.html) <sub>🆕 · 📅 2021</sub>
+* [**C (kernel)**: _Linux Kernel Development Using QEMU_](https://programmador.com/blog/2024/linux-kernel-development-using-qemu/) <sub>🆕 · 📅 2024</sub>
+* [**C (Unikraft)**: _Building a unikernel - Unikraft_](https://unikraft.org/docs/cli/building) <sub>🆕 · 📅 2026</sub>
+* [**C++ (IncludeOS)**: _Get Started – includeOS_](https://includeos.org/get-started.html) <sub>🆕 · 📅 2022</sub>
+* [**Windows / KVM**: _Driver installation - virtio-win/kvm-guest-drivers-windows_](https://github.com/virtio-win/kvm-guest-drivers-windows/wiki/Driver-installation) <sub>🆕 · 📅 2026</sub>
+
+##### Client Access & Integration for VM/VPS
+
+* [**Python**: _SSH API for Linux VPS automation_](https://github.com/vibheksoni/ssh-api) <sub>🆕 · 📅 2024</sub>
+* [**WireGuard**: _How to Set Up Your Own WireGuard VPN Server on a VPS_](https://www.lineserve.net/blog/how-to-set-up-your-own-vpn-server) <sub>🆕 · 📅 2023</sub>
+* [**Go**: _PVMSS - Proxmox VM Self-Service Portal_](https://github.com/julienhmmt/pvmss) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _QEMU/KVM Virtual Machine Management Platform_](https://github.com/jenvenson/kvm-manager) <sub>🆕 · 📅 2026</sub>
+* [**Go**: _Terraform Provider for Proxmox VE_](https://github.com/bpg/terraform-provider-proxmox) <sub>🆕 · 📅 2021</sub>
+* [**Python**: _Proxmox VNC Access for VPS Customers_](https://github.com/petarduss/proxmox-vnc) <sub>🆕 · 📅 2025</sub>
+* [**Python (libvirt)**: _libvirt Python API bindings_](https://libvirt.org/python.html) <sub>🆕 · 📅 2026</sub>
+* [**WireGuard**: _Self-host the NetBird VPN server on a VPS_](https://www.ssdnodes.com/learn/self-host-netbird-vpn-server) <sub>🆕 · 📅 2026</sub>
+* [**Proxmox**: _Consoles and recovery: noVNC, SPICE, serial and qm terminal_](https://runbook.academy/courses/proxmox/lessons/ix-vm-console-and-recovery/) <sub>🆕 · 📅 2025</sub>
+* [**Python**: _Proxmox Self-Service GUI_](https://github.com/chloepriceless/proxmox-gui) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _PVEmanager - Self-hosted Proxmox Panel_](https://github.com/markmorado/pvemanager) <sub>🆕 · 📅 2025</sub>
+* [**Conceitos (Proxmox API)**: _Proxmox API Viewer_](https://pve.proxmox.com/pve-docs/api-viewer/index.html) <sub>🆕 · 📅 2026</sub>
+
+##### Accounts, Billing & VPS Provisioning
+
+* [**PHP**: _Paymenter: Free and open-source webshop solution for hostings_](https://github.com/Paymenter/Paymenter) <sub>🆕 · 📅 2026</sub>
+* [**PHP**: _Virtualizor | Paymenter Extension Docs_](https://paymenter.org/docs/extensions/virtualizor) <sub>🆕</sub>
+* [**PHP**: _How to Set Up Paymenter: The Best Open-Source Hosting Panel!!_](https://www.youtube.com/watch?v=EFVnL4R3prw) <sub>🆕 · 📅 2024</sub>
+* [**Java**: _Kill Bill: Open-Source Subscription Billing & Payments Platform_](https://github.com/killbill/killbill) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Multi-Tenancy and Authorization_](https://blog.killbill.io/blog/multi-tenancy-authorization) <sub>🆕 · 📅 2015</sub>
+* [**Ruby**: _Lago API: Open Source Metering and Usage Based Billing_](https://github.com/getlago/lago-api) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _TokenToll: self-hostable billing infrastructure for LLM APIs and SaaS products_](https://github.com/AlameerAshraf/tokentoll) <sub>🆕 · 📅 2026</sub>
+* [**TypeScript**: _Multi-Tenant Subscription SaaS API (Node.js, Express, TypeScript, Prisma, JWT, Redis)_](https://github.com/sandstacks/Multi-Tenant-Saas) <sub>🆕 · 📅 2026</sub>
+* [**Go**: _Multi-Tenant SaaS Billing & Subscription API (Go + Gin)_](https://github.com/OnkuWole/multitenant_billing) <sub>🆕 · 📅 2025</sub>
+* [**PHP**: _Subscribify · Multitenant Billing SaaS (Laravel + Stripe Cashier)_](https://github.com/earl-cod3/Subscribify-multitenant-billing-SaaS-Laravel) <sub>🆕 · 📅 2025</sub>
+* [**Node.js**: _How I Built a Multi-tenant SaaS Product in Node.js_](https://dev.to/cod3kid/how-i-built-a-multi-tenant-saas-product-in-nodejs-3m0b) <sub>🆕 · 📅 2022</sub>
+* [**Ruby**: _Building a Subscription Billing System From Scratch with Rails and Stripe_](https://dev.to/jakemmarsh/building-a-subscription-billing-system-from-scratch-with-rails-and-stripe-3o2k) <sub>🆕 · 📅 2019</sub>
+
+##### Your Own Cloud
+
+* [**Python/Shell**: _DevStack — All-In-One Single Machine_](https://docs.openstack.org/devstack/latest/guides/single-machine.html) <sub>🆕 · 📅 2026</sub>
+* [**Proxmox**: _Proxmox VE Cluster_](https://pve.proxmox.com/wiki/Proxmox_VE_Cluster) <sub>🆕</sub>
+* [**Go**: _SeaweedFS — Distributed Storage System_](https://github.com/seaweedfs/seaweedfs) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Coding Challenges — Build Your Own Load Balancer_](https://codingchallenges.fyi/challenges/challenge-load-balancer) <sub>🆕 · 📅 2026</sub>
+* [**C**: _HAProxy — Starter Guide_](https://github.com/haproxy/haproxy/blob/master/doc/intro.txt) <sub>🆕 · 📅 2026</sub>
+* [**C++**: _PowerDNS Authoritative — Getting Started_](https://doc.powerdns.com/authoritative/operating.html) <sub>🆕 · 📅 2026</sub>
+* [**Java/Shell**: _Apache CloudStack — Installation Guide_](https://docs.cloudstack.apache.org/en/latest/installguide/index.html) <sub>🆕 · 📅 2026</sub>
+* [**Proxmox/Shell**: _Proxmox Homelab Guide_](https://github.com/CocoHusky/proxmox-homelab-guide) <sub>🆕 · 📅 2026</sub>
+* [**Kubernetes/Shell**: _Build a Kubernetes Home Lab from Scratch step-by-step!_](https://www.youtube.com/watch?v=_WW16Sp8-Jw) <sub>🆕 · 📅 2022</sub>
+* [**Proxmox**: _How to Set Up a Proxmox Cluster: Complete Guide_](https://proxmoxr.com/blog/proxmox-cluster-setup) <sub>🆕 · 📅 2026</sub>
+* [**Proxmox**: _From Zero to Proxmox Cluster: Building a Homelab on Old Hardware_](https://dev.to/fedya_serafiev/from-zero-to-proxmox-cluster-building-a-homelab-on-old-hardware-4no9) <sub>🆕 · 📅 2026</sub>
+* [**Kubernetes/Shell**: _Building a Kubernetes Cluster from Scratch with K3s_](https://docs.k3s.io/) <sub>🆕 · 📅 2026</sub>
+
+##### Platform as a Service (Heroku-like)
+
+* [**Python**: _How to Build Your Own Heroku with Dokku_](https://www.freecodecamp.org/news/how-to-build-your-on-heroku-with-dokku) <sub>🆕 · 📅 2022</sub>
+* [**Conceitos**: _Dokku Has a Free API: Build Your Own Heroku on a $5 VPS_](https://dev.to/0012303/dokku-has-a-free-api-build-your-own-heroku-on-a-5-vps-422o) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Dokku: The smallest PaaS implementation you've ever seen_](https://dokku.com/) <sub>🆕 · 📅 2026</sub>
+* [**JavaScript**: _CapRover: Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids_](https://github.com/caprover/caprover) <sub>🆕</sub>
+* [**PHP**: _Coolify: An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify_](https://github.com/coollabsio/coolify) <sub>🆕 · 📅 2021</sub>
+* [**Ruby**: _Kamal: Deploy web apps anywhere_](https://github.com/basecamp/kamal) <sub>🆕 · 📅 2023</sub>
+* [**Go**: _LoomDeploy: Self-hosted PaaS - deploy any app to your own VPS with Git push, auto SSL, live logs, rollbacks and health monitoring_](https://github.com/youssef509/loomdeploy) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Heroku Cloud Native Buildpacks overview and tutorials_](https://github.com/heroku/buildpacks) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _Basic Structure of Buildpacks & How to Customize_](https://www.heroku.com/blog/hacking-buildpacks) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _Coolify: The Ultimate Self-Hosted Platform as a Service?_](https://www.youtube.com/watch?v=6IZF_VOlOJM) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Host your own Vercel_](https://www.youtube.com/watch?v=nCWznQ0HY9c) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _Container Day: Empire - Building a PaaS with Amazon ECS_](https://www.youtube.com/watch?v=K_eDmHFaTdQ) <sub>🆕 · 📅 2016</sub>
+* [**Python**: _Piku: The tiniest PaaS you've ever seen_](https://github.com/piku/piku) <sub>🆕 · 📅 2016</sub>
+* [**Shell**: _piku/webapp-tutorial: piku experiments with build a web app fast_](https://github.com/piku/webapp-tutorial) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _Forge: Building Your Own PaaS with Terraform and Ansible_](https://dev.to/nelsonramos/how-i-built-a-self-hosted-paas-on-aws-from-scratch-no-docker-no-kubernetes-bl8) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _The building blocks of a Cloud Native Buildpack_](https://buildpacks.io/docs/for-buildpack-authors/tutorials/basic-buildpack/02_building-blocks-cnb/) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _Pack CLI Tutorial: Build your own PaaS with buildpacks_](https://buildpacks.io/docs/app-developer-guide/build-an-app/) <sub>🆕 · 📅 2024</sub>
+
+##### Build a SaaS
+
+* [**Go**: _LastSaaS: The last SaaS boilerplate you'll ever need_](https://github.com/jonradoff/lastsaas) <sub>🆕 · 📅 2026</sub>
+* [**TypeScript**: _SaaS App Full Course 2026 | Launch Your SaaS in Under 7 Days with Next JS, Supabase & Payments_](https://www.youtube.com/watch?v=XUkNR-JfHwo) <sub>🆕 · 📅 2025</sub>
+* [**Node.js**: _Set up subscriptions with Stripe Billing (subscription-use-cases)_](https://github.com/stripe-samples/subscription-use-cases) <sub>🆕 · 📅 2026</sub>
+* [**Node.js**: _Stripe for SaaS Full Course_](https://github.com/fireship-io/stripe-for-saas) <sub>🆕 · 📅 2024</sub>
+* [**TypeScript**: _Stripe Subscriptions with Next.js - Full Course 2024_](https://www.youtube.com/watch?v=R9PwoQwVpPQ) <sub>🆕 · 📅 2024</sub>
+* [**PHP**: _Stripe in SaaS (multi-tenant, multiple database) — Laravel + React_](https://github.com/tarikulwebx/stripe-integration-in-multi-tenancy) <sub>🆕 · 📅 2025</sub>
+* [**TypeScript**: _How to Build a SaaS in 2026 | Masterclass (B2B, Multi Tenant, Next.js, Roles / Permissions, Billing)_](https://www.youtube.com/watch?v=Dl8ad3aSFoE) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Python Tutorial: Build a SaaS App with Django, Stripe, Neon PostgreSQL, TailwindCSS, GitHub Actions_](https://www.youtube.com/watch?v=WbNNESIxJnY) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _Multi-tenancy architecture | The Backend Engineering Show_](https://www.youtube.com/watch?v=IhrBgoVIoT4) <sub>🆕 · 📅 2022</sub>
+* [**TypeScript**: _Build SaaS with paid subscriptions - using Nile and Stripe_](https://www.thenile.dev/docs/integrations/stripe.md) <sub>🆕</sub>
+* [**Conceitos**: _Assinaturas — Visão geral (Subscriptions)_](https://www.mercadopago.com.br/developers/pt/docs/subscriptions/overview) <sub>🆕</sub>
+* [**TypeScript**: _Stripe Subscriptions in a SaaS (Step-by-Step With Code)_](https://dev.to/mdhemalakhand1999/stripe-subscriptions-in-a-saas-step-by-step-with-code-1lkd) <sub>🆕 · 📅 2026</sub>
+
+##### SaaS Models & Architecture
+
+* [**Conceitos**: _General design principles - SaaS Lens (AWS Well-Architected Framework)_](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/general-design-principles.html) <sub>🆕 · 📅 2026</sub>
+* [**TypeScript**: _Multi-Tenant SaaS Architecture in 3 Simple Steps_](https://www.youtube.com/watch?v=bFLGwVyIotA) <sub>🆕 · 📅 2025</sub>
+* [**TypeScript**: _How to Build a Multi-Tenant SaaS Platform with Next.js, Express, and Prisma_](https://www.freecodecamp.org/news/how-to-build-a-multi-tenant-saas-platform-with-next-js-express-and-prisma) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _SaaS Architecture Fundamentals - AWS Whitepaper_](https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/events/approved/documents/saas-architecture-fundamentals-whitepaper.pdf) <sub>🆕 · 📅 2022</sub>
+* [**Conceitos**: _Architect multitenant solutions on Azure (Azure multitenant guide)_](https://learn.microsoft.com/en-us/azure/architecture/guide/multitenant/overview) <sub>🆕 · 📅 2025</sub>
+* [**Conceitos**: _Foundations of SaaS (Microsoft Learn - Training)_](https://learn.microsoft.com/en-us/training/saas/saas-foundations/) <sub>🆕 · 📅 2025</sub>
+* [**Conceitos**: _How to Read a Service-Level Agreement (SLA)_](https://learn.microsoft.com/en-us/azure/reliability/concept-service-level-agreements) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Building Multi-Tenant SaaS Architectures [Book]_](https://www.oreilly.com/library/view/building-multi-tenant-saas/9781098140632) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _IaaS vs. PaaS vs. SaaS_](https://www.redhat.com/en/topics/cloud-computing/iaas-vs-paas-vs-saas) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Noisy Neighbor Antipattern - Azure Architecture Center_](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/noisy-neighbor/noisy-neighbor) <sub>🆕 · 📅 2025</sub>
+* [**Conceitos**: _SaaS Metrics: A Complete Guide to Tracking Business Growth_](https://stripe.com/ie/resources/more/essential-saas-metrics) <sub>🆕 · 📅 2023</sub>
+* [**Conceitos**: _SaaS Pricing Models: A Guide_](https://stripe.com/en-cy/resources/more/saas-pricing-models-101) <sub>🆕 · 📅 2026</sub>
 
 #### Build your own `Command-Line Tool`
 
@@ -395,7 +549,7 @@ It's a great way to learn.
 * [**JavaScript**: _Understanding JavaScript Micro-Templating_](https://medium.com/wdstack/understanding-javascript-micro-templating-f37a37b3b40e) <sub>📅 2016</sub>
 * [**Python**: _Approach: Building a toy template engine in Python_](https://alexmic.net/building-a-template-engine/) <sub>↪ · 📅 2013</sub>
 * [**Python**: _A Template Engine_](https://aosabook.org/en/500L/a-template-engine.html) <sub>↪ · 📅 2023</sub>
-* [**Ruby**: _How to write a template engine in less than 30 lines of code_](http://bits.citrusbyte.com/how-to-write-a-template-library/)
+* [**Ruby**: _How to write a template engine in less than 30 lines of code_](http://bits.citrusbyte.com/how-to-write-a-template-library/) <sub>📅 2022</sub>
 
 #### Build your own `Text Editor`
 

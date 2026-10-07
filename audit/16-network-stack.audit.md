@@ -1,6 +1,6 @@
 # Auditoria: Network Stack
 
-Total: 4 | parcial: 1 | falhou: 0 | verificado: 3 | nao_verificado: 0
+Total: 4 | nao_verificado: 0 | falhou: 0 | parcial: 1 | verificado: 3
 
 ## 1. **C**: _Beej's Guide to Network Programming_
 - URL: http://beej.us/guide/bgnet/
