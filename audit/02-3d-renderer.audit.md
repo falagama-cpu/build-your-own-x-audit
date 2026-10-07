@@ -1,6 +1,6 @@
 # Auditoria: 3D Renderer
 
-Total: 11 | parcial: 10 | falhou: 0 | verificado: 1 | nao_verificado: 0
+Total: 11 | nao_verificado: 0 | parcial: 10 | falhou: 0 | verificado: 1
 
 ## 1. **C++**: _Introduction to Ray Tracing: a Simple Method for Creating 3D Images_
 - URL: https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work

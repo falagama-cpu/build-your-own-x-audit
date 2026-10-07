@@ -1,6 +1,6 @@
 # Auditoria: Distributed Systems
 
-Total: 1 | verificado: 1 | nao_verificado: 0 | parcial: 0 | falhou: 0
+Total: 1 | parcial: 0 | verificado: 1 | nao_verificado: 0 | falhou: 0
 
 ## 1. **Java**: _Building Your Own Kafka-like System From Scratch: A Step-by-Step Guide_
 - URL: https://github.com/buildthingsuseful/build-your-own-kafka

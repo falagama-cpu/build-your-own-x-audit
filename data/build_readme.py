@@ -61,12 +61,18 @@ def main():
         if d["entries"] and all(e.get("verdict") for e in d["entries"]):  # só seções completas
             audits[d["section"]] = d
 
-    out, cur, idx = [], None, 0
+    out, cur, idx, label = [], None, 0, None
+    removed = []
     n = fixed = 0
     for line in open(os.path.join(B, "readme.md"), encoding="utf-8").read().splitlines():
+        if line.startswith("#### Uncategorized"):
+            label = "Uncategorized"   # na auditoria estes itens continuam na seção anterior (Web Server)
+            out.append(line)
+            continue
         m = re.match(r"#### Build your own `?(.+?)`?\s*$", line)
         if m:
             cur, idx = m.group(1), 0
+            label = cur
             out.append(line)
             continue
         if cur and line.startswith("* "):
@@ -82,6 +88,10 @@ def main():
                 continue
             n += 1
             title, url, rest = mm.groups()
+            if e.get("exclude"):
+                removed.append((label, title, url, e.get("exclude_reason") or ""))
+                n -= 1
+                continue
             notes = []
             if e.get("link_status") == "morto" and e.get("alternative"):
                 notes.append(t["dead"].format(u=url))
@@ -128,6 +138,15 @@ def main():
         j = next(i for i, l in enumerate(out) if l.startswith("#### Build your own `Command-Line Tool`"))
         out[j:j] = block
         n += len(seen)
+
+    # itens removidos: listados antes de "## Contribute", com o motivo
+    if removed:
+        k = next(i for i, l in enumerate(out) if l.startswith("## Contribute"))
+        blk = ["## Removed in this edition", "",
+               "Tutorials from the original list that were dropped because they are dead and/or no longer runnable "
+               "with current tools. Kept here for reference.", ""]
+        blk += [f"* {sec} — [{title}]({url}): {why}" for sec, title, url, why in removed]
+        out[k:k] = blk + [""]
 
     # banner logo depois do título principal
     banner = [

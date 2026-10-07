@@ -162,7 +162,10 @@
    "category_suggestion": null,
    "alternative": null,
    "alternative_reason": "Link funcionando, alternative nao necessaria",
-   "verdict": "verificado"
+   "verdict": "verificado",
+   "exclude": true,
+   "exclude_reason": "AngularJS 1.x reached end of life in January 2022",
+   "excluded_at": "2026-10-07"
   },
   {
    "idx": 10,
@@ -180,7 +183,10 @@
    "category_suggestion": null,
    "alternative": "http://web.archive.org/web/20140130084907/http://teropa.info/blog/2013/11/03/make-your-own-angular-part-1-scopes-and-digest.html",
    "alternative_reason": "Artigo removido do site atual (URL serve homepage; post de 2013 nao consta mais na lista do blog); snapshot Wayback de 2014 contem o artigo completo",
-   "verdict": "parcial"
+   "verdict": "parcial",
+   "exclude": true,
+   "exclude_reason": "dead link; AngularJS 1.x reached end of life in January 2022",
+   "excluded_at": "2026-10-07"
   },
   {
    "idx": 11,

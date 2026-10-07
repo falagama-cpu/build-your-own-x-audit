@@ -1,6 +1,6 @@
 # Auditoria: AI Model
 
-Total: 3 | parcial: 0 | verificado: 3 | nao_verificado: 0 | falhou: 0
+Total: 3 | parcial: 0 | verificado: 3 | falhou: 0 | nao_verificado: 0
 
 ## 1. **Python**: _A Large Language Model (LLM)_
 - URL: https://github.com/rasbt/LLMs-from-scratch

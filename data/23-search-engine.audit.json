@@ -18,7 +18,10 @@
    "category_suggestion": null,
    "alternative": "https://web.archive.org/web/20220317204412/https://stories.algolia.com/a-search-engine-in-css-b5ec4e902e97",
    "alternative_reason": null,
-   "verdict": "falhou"
+   "verdict": "falhou",
+   "exclude": true,
+   "exclude_reason": "dead link; a CSS curiosity that does not teach search-engine construction",
+   "excluded_at": "2026-10-07"
   },
   {
    "idx": 2,
@@ -54,7 +57,10 @@
    "category_suggestion": null,
    "alternative": null,
    "alternative_reason": "link vivo; conteudo acessivel",
-   "verdict": "verificado"
+   "verdict": "verificado",
+   "exclude": true,
+   "exclude_reason": "Python 2 code (has_key, print statement); does not run on Python 3",
+   "excluded_at": "2026-10-07"
   },
   {
    "idx": 4,

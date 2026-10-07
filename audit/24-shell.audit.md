@@ -1,6 +1,6 @@
 # Auditoria: Shell
 
-Total: 7 | parcial: 2 | verificado: 5 | nao_verificado: 0 | falhou: 0
+Total: 7 | parcial: 2 | nao_verificado: 0 | verificado: 5 | falhou: 0
 
 ## 1. **C**: _Tutorial - Write a Shell in C_
 - URL: https://brennan.io/2015/01/16/write-a-shell-in-c/

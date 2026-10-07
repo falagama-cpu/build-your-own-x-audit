@@ -1,6 +1,6 @@
 # Auditoria: Neural Network
 
-Total: 17 | nao_verificado: 1 | parcial: 9 | verificado: 7 | falhou: 0
+Total: 17 | falhou: 0 | verificado: 7 | nao_verificado: 1 | parcial: 9
 
 ## 1. **C#**: _Neural Network OCR_
 - URL: https://www.codeproject.com/Articles/11285/Neural-Network-OCR

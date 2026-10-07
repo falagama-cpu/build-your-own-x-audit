@@ -270,7 +270,10 @@
    "category_suggestion": null,
    "alternative": "https://web.archive.org/web/20260712161022/http://dranger.com/ffmpeg/ffmpeg.html",
    "alternative_reason": "URL original inacessivel (falha de conecao TLS); Wayback recovery disponivel com snapshot de 2026-07-12",
-   "verdict": "nao_verificado"
+   "verdict": "nao_verificado",
+   "exclude": true,
+   "exclude_reason": "dead link; uses an ffmpeg/libav API deprecated since ~2015",
+   "excluded_at": "2026-10-07"
   },
   {
    "idx": 16,
@@ -1134,7 +1137,10 @@
    "category_suggestion": "Neural Network",
    "alternative": null,
    "alternative_reason": "DataCamp bloqueia curl/robots (403 Cloudflare) mas o tutorial esta acessivel via navegador; LSTM nao e Web Server; categoria sugerida Neural Network",
-   "verdict": "parcial"
+   "verdict": "parcial",
+   "exclude": true,
+   "exclude_reason": "TensorFlow 1.x code; does not run on TensorFlow 2",
+   "excluded_at": "2026-10-07"
   },
   {
    "idx": 64,
@@ -1152,7 +1158,10 @@
    "category_suggestion": "Neural Network",
    "alternative": null,
    "alternative_reason": "Link vivo (redireciona para DigitalOcean, dona atual da Paperspace); GAN nao e Web Server; categoria sugerida Neural Network",
-   "verdict": "verificado"
+   "verdict": "verificado",
+   "exclude": true,
+   "exclude_reason": "TensorFlow 1.x code; does not run on TensorFlow 2",
+   "excluded_at": "2026-10-07"
   },
   {
    "idx": 65,

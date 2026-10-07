@@ -1,6 +1,6 @@
 # Auditoria: Database
 
-Total: 13 | falhou: 4 | verificado: 0 | parcial: 9 | nao_verificado: 0
+Total: 13 | falhou: 4 | verificado: 0 | nao_verificado: 0 | parcial: 9
 
 ## 1. **C**: _Let's Build a Simple Database_
 - URL: https://cstack.github.io/db_tutorial/

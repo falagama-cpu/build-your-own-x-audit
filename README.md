@@ -2,7 +2,7 @@
 
 ## Build your own &lt;insert-technology-here&gt;
 
-> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-07** · 30/30 sections · 480 tutorials · 14 links replaced. Per-section reports: [`audit/`](audit/).
+> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-07** · 30/30 sections · 472 tutorials · 11 links replaced. Per-section reports: [`audit/`](audit/).
 >
 > Legend: 📅 year of publication or last update · 🔁 original link was dead, replaced · ↪ moved, URL updated · 🏷 suggested category · 🆕 new section added by this edition
 
@@ -333,7 +333,6 @@ It's a great way to learn.
 * [**C++**: _NES Emulator From Scratch_](https://www.youtube.com/playlist?list=PLrOv9FMX8xJHqMvSGB_9G9nZZ_4IgteYf) [video] <sub>📅 2020</sub>
 * [**Common Lisp**: _CHIP-8 in Common Lisp_](http://stevelosh.com/blog/2016/12/chip8-cpu/) <sub>📅 2016</sub>
 * [**JavaScript**: _GameBoy Emulation in JavaScript_](http://imrannazar.com/GameBoy-Emulation-in-JavaScript) <sub>📅 2010</sub>
-* [**Python**: _Emulation Basics: Write your own Chip 8 Emulator/Interpreter_](http://omokute.blogspot.com.br/2012/06/emulation-basics-write-your-own-chip-8.html) <sub>📅 2012</sub>
 * [**Rust**: _0dmg: Learning Rust by building a partial Game Boy emulator_](https://jeremybanks.github.io/0dmg/) <sub>📅 2026</sub>
 
 #### Build your own `Front-end Framework / Library`
@@ -346,8 +345,6 @@ It's a great way to learn.
 * [**JavaScript**: _Build Yourself a Redux_](https://zapier.com/blog/how-to-build-redux/) <sub>↪ · 📅 2017</sub>
 * [**JavaScript**: _Let’s Write Redux!_](https://www.jamasoftware.com/blog/lets-write-redux/) <sub>📅 2023</sub>
 * [**JavaScript**: _Redux: Implementing Store from Scratch_](https://egghead.io/lessons/react-redux-implementing-store-from-scratch) [video] <sub>📅 2015</sub>
-* [**JavaScript**: _Build Your own Simplified AngularJS in 200 Lines of JavaScript_](https://blog.mgechev.com/2015/03/09/build-learn-your-own-light-lightweight-angularjs/) <sub>📅 2015</sub>
-* [**JavaScript**: _Make Your Own AngularJS_](http://web.archive.org/web/20140130084907/http://teropa.info/blog/2013/11/03/make-your-own-angular-part-1-scopes-and-digest.html) <sub>🔁 original dead: http://teropa.info/blog/2013/11/03/make-your-own-angular-part-1-scopes-and-digest.html · 📅 2013</sub>
 * [**JavaScript**: _How to write your own Virtual DOM_](https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060) <sub>📅 2016</sub>
 * [**JavaScript**: _Building a frontend framework, from scratch, with components (templating, state, VDOM)_](https://mfrachet.github.io/create-frontend-framework/) <sub>📅 2022</sub>
 * [**JavaScript**: _Build your own React_](https://pomb.us/build-your-own-react/) <sub>📅 2019</sub>
@@ -526,9 +523,7 @@ It's a great way to learn.
 
 #### Build your own `Search Engine`
 
-* [**CSS**: _A search engine in CSS_](https://web.archive.org/web/20220317204412/https://stories.algolia.com/a-search-engine-in-css-b5ec4e902e97) <sub>🔁 original dead: https://stories.algolia.com/a-search-engine-in-css-b5ec4e902e97</sub>
 * [**Python**: _Building a search engine using Redis and redis-py_](https://www.dr-josiah.com/2010/07/building-search-engine-using-redis-and.html) <sub>↪ · 📅 2010</sub>
-* [**Python**: _Building a Vector Space Indexing Engine in Python_](https://boyter.org/2010/08/build-vector-space-search-engine-python/) <sub>📅 2010</sub>
 * [**Python**: _Building A Python-Based Search Engine_](https://www.youtube.com/watch?v=cY7pE7vX6MU) [video] <sub>📅 2012</sub>
 * [**Python**: _Making text search learn from feedback_](https://medium.com/filament-ai/making-text-search-learn-from-feedback-4fe210fd87b0)
 * [**Python**: _Finding Important Words in Text Using TF-IDF_](https://stevenloria.com/tf-idf/) <sub>📅 2013</sub>
@@ -593,7 +588,6 @@ It's a great way to learn.
 * [**(any)**: _From NAND to Tetris: Building a Modern Computer From First Principles_](https://www.nand2tetris.org/) <sub>↪ · 🏷 Processor</sub>
 * [**(any)**:  build-your-own-x-vibe-coding: BYOX-style tutorials adapted for vibe coding](https://github.com/inFaaa/build-your-own-x-vibe-coding) <sub>📅 2025</sub>
 * [**Alloy**: _The Same-Origin Policy_](https://aosabook.org/en/500L/the-same-origin-policy.html) <sub>↪ · 🏷 Web Browser</sub>
-* [**C**: _How to Write a Video Player in Less Than 1000 Lines_](https://web.archive.org/web/20260712161022/http://dranger.com/ffmpeg/ffmpeg.html) <sub>🔁 original dead: http://dranger.com/ffmpeg/ffmpeg.html</sub>
 * [**C**: _Learn how to write a hash table in C_](https://github.com/jamesroutley/write-a-hash-table) <sub>📅 2023 · 🏷 Memory Allocator</sub>
 * [**C**: _The very basics of a terminal emulator_](https://movq.de/blog/postings/2018-02-24/0/POSTING-en.html) <sub>↪ · 📅 2018 · 🏷 Terminal</sub>
 * [**C**: _Write a System Call_](https://brennan.io/2016/11/14/kernel-dev-ep3/) <sub>📅 2016 · 🏷 Operating System</sub>
@@ -641,8 +635,6 @@ It's a great way to learn.
 * [**Python**: _Recommender Systems in Python: Beginner Tutorial_](https://www.datacamp.com/community/tutorials/recommender-systems-python) <sub>🏷 Uncategorized</sub>
 * [**Python**: _Write SMS-spam detector with Scikit-learn_](https://medium.com/@kopilov.vlad/detect-sms-spam-in-kaggle-with-scikit-learn-5f6afa7a3ca2) <sub>📅 2018 · 🏷 Uncategorized</sub>
 * [**Python**: _A Simple Content-Based Recommendation Engine in Python_](http://blog.untrod.com/2016/06/simple-similar-products-recommendation-engine-in-python.html) <sub>📅 2016 · 🏷 Uncategorized</sub>
-* [**Python**: _Stock Market Predictions with LSTM in Python_](https://www.datacamp.com/community/tutorials/lstm-python-stock-market) <sub>📅 2020 · 🏷 Neural Network</sub>
-* [**Python**: _Building a simple Generative Adversarial Network (GAN) using Tensorflow_](https://www.digitalocean.com/community/tutorials/implementing-gans-in-tensorflow) <sub>↪ · 📅 2018 · 🏷 Neural Network</sub>
 * [**Python**: _Learn ML Algorithms by coding: Decision Trees_](https://anderfernandez.com/en/blog/code-decision-tree-python-from-scratch) <sub>🔁 original dead: https://lethalbrains.com/learn-ml-algorithms-by-coding-decision-trees-439ac503c9a4 · 🏷 Uncategorized</sub>
 * [**Python**: _JSON Decoding Algorithm_](https://github.com/cheery/json-algorithm) <sub>📅 2016 · 🏷 Uncategorized</sub>
 * [**Python**: _Build your own Git plugin with python_](https://web.archive.org/web/20240218054021/https://joshburns-xyz.vercel.app/posts/build-your-own-git-plugin) <sub>🔁 original dead: https://joshburns-xyz.vercel.app/posts/build-your-own-git-plugin · 📅 2022 · 🏷 Git</sub>
@@ -652,6 +644,19 @@ It's a great way to learn.
 * [**Rust**: _Writing Scalable Chat Service from Scratch_](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html) <sub>📅 2015 · 🏷 Uncategorized</sub>
 * [**Rust**: _WebGL + Rust: Basic Water Tutorial_](https://www.chinedufn.com/3d-webgl-basic-water-tutorial/) <sub>📅 2019 · 🏷 3D Renderer</sub>
 * [**TypeScript**: _Tiny Package Manager: Learns how npm or Yarn works_](https://github.com/g-plane/tiny-package-manager) <sub>📅 2024 · 🏷 Uncategorized</sub>
+
+## Removed in this edition
+
+Tutorials from the original list that were dropped because they are dead and/or no longer runnable with current tools. Kept here for reference.
+
+* Emulator / Virtual Machine — [**Python**: _Emulation Basics: Write your own Chip 8 Emulator/Interpreter_](http://omokute.blogspot.com.br/2012/06/emulation-basics-write-your-own-chip-8.html): Python 2; redundant (two other CHIP-8 tutorials in this section)
+* Front-end Framework / Library — [**JavaScript**: _Build Your own Simplified AngularJS in 200 Lines of JavaScript_](https://blog.mgechev.com/2015/03/09/build-learn-your-own-light-lightweight-angularjs/): AngularJS 1.x reached end of life in January 2022
+* Front-end Framework / Library — [**JavaScript**: _Make Your Own AngularJS_](http://teropa.info/blog/2013/11/03/make-your-own-angular-part-1-scopes-and-digest.html): dead link; AngularJS 1.x reached end of life in January 2022
+* Search Engine — [**CSS**: _A search engine in CSS_](https://stories.algolia.com/a-search-engine-in-css-b5ec4e902e97): dead link; a CSS curiosity that does not teach search-engine construction
+* Search Engine — [**Python**: _Building a Vector Space Indexing Engine in Python_](https://boyter.org/2010/08/build-vector-space-search-engine-python/): Python 2 code (has_key, print statement); does not run on Python 3
+* Uncategorized — [**C**: _How to Write a Video Player in Less Than 1000 Lines_](http://dranger.com/ffmpeg/ffmpeg.html): dead link; uses an ffmpeg/libav API deprecated since ~2015
+* Uncategorized — [**Python**: _Stock Market Predictions with LSTM in Python_](https://www.datacamp.com/community/tutorials/lstm-python-stock-market): TensorFlow 1.x code; does not run on TensorFlow 2
+* Uncategorized — [**Python**: _Building a simple Generative Adversarial Network (GAN) using Tensorflow_](https://blog.paperspace.com/implementing-gans-in-tensorflow/): TensorFlow 1.x code; does not run on TensorFlow 2
 
 ## Contribute 
 * Submissions welcome, just send a PR, or [create an issue](https://github.com/codecrafters-io/build-your-own-x/issues/new)

@@ -216,7 +216,10 @@
    "category_suggestion": null,
    "alternative": null,
    "alternative_reason": "Post original vivo (Blogger redireciona .com.br -> .com); tutorial CHIP-8 em Python dentro do escopo; alternativa: tutorial moderno como https://austinmorlan.com/posts/chip8_emulator/ nao supera por ser em C++",
-   "verdict": "verificado"
+   "verdict": "verificado",
+   "exclude": true,
+   "exclude_reason": "Python 2; redundant (two other CHIP-8 tutorials in this section)",
+   "excluded_at": "2026-10-07"
   },
   {
    "idx": 13,
