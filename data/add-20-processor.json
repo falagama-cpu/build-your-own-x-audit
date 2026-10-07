@@ -1,0 +1,6 @@
+{
+ "section": "Processor",
+ "title": "Processor",
+ "scope": "Processador do zero em hardware: CPU em Verilog/VHDL/SystemVerilog, nucleo RISC-V do zero, pipeline, FPGA, CPU de portas logicas (simuladores como Digital/Logisim), CPU de 8 bits em breadboard (Ben Eater).",
+ "entries": []
+}

@@ -1,6 +1,6 @@
 # Auditoria: Physics Engine
 
-Total: 7 | verificado: 6 | nao_verificado: 0 | falhou: 0 | parcial: 1
+Total: 7 | falhou: 0 | parcial: 2 | verificado: 5 | nao_verificado: 0
 
 ## 1. **C**: _Video Game Physics Tutorial_
 - URL: https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics
@@ -12,7 +12,7 @@ Total: 7 | verificado: 6 | nao_verificado: 0 | falhou: 0 | parcial: 1
 
 ## 3. **C++**: _How to Create a Custom Physics Engine_
 - URL: https://gamedevelopment.tutsplus.com/series/how-to-create-a-custom-physics-engine--gamedev-12715
-- VERIFICADO: link redirecionado [http 200 -> https://code.tutsplus.com/c/game-development]; 2013-04-06 (publicacao; fonte: pagina (primeiro artigo da serie em 06/04/2013)); ingles; serie de 4 artigos por Randy Gaul, 2013; redirecionado para code.tutsplus.com; categoria ok; alternativa: nenhuma (link redirecionado mas ainda funcional; serie intacta)
+- PARCIAL: link morto [http 301 -> https://code.tutsplus.com/c/game-development... (redireciona para pagina generica/outro artigo: conteudo original removido; soft 404); wayback https://web.archive.org/web/20210131221044/https://gamedevelopment.tutsplus.com/series/how-to-create-a-custom-physics-engine--gamedev-12715]; 2013-04-06 (publicacao; fonte: pagina (primeiro artigo da serie em 06/04/2013)); ingles; serie de 4 artigos por Randy Gaul, 2013; redirecionado para code.tutsplus.com; categoria ok; alternativa: https://web.archive.org/web/20210131221044/https://gamedevelopment.tutsplus.com/series/how-to-create-a-custom-physics-engine--gamedev-12715
 
 ## 4. **C++**: _3D Physics Engine Tutorial_
 - URL: https://www.youtube.com/playlist?list=PLEETnX-uPtBXm1KEr_2zQ6K_0hoGH6JJ0

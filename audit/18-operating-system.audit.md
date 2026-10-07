@@ -1,6 +1,6 @@
 # Auditoria: Operating System
 
-Total: 19 | falhou: 1 | verificado: 6 | nao_verificado: 1 | parcial: 11
+Total: 19 | verificado: 6 | nao_verificado: 1 | parcial: 12 | falhou: 0
 
 ## 1. **Assembly**: _Writing a Tiny x86 Bootloader_
 - URL: http://joebergeron.io/posts/post_two.html
@@ -56,7 +56,7 @@ Total: 19 | falhou: 1 | verificado: 6 | nao_verificado: 1 | parcial: 11
 
 ## 14. **C**: _Operating systems development for Dummies_
 - URL: https://medium.com/@lduck11007/operating-systems-development-for-dummies-3d4d786e8ac
-- FALHOU: link bloqueado_bot [http 403 -> https://medium.com/@lduck11007/operating-systems-development-for-dummies-3d4d786e8ac]; data nao encontrada; C; versao nao verificada; categoria ok; alternativa: nenhuma (link bloqueado por bot, alternativa nao necessaria)
+- PARCIAL: link bloqueado_bot [http 403 -> https://medium.com/@lduck11007/operating-systems-development-for-dummies-3d4d786e8ac]; data nao encontrada; C; versao nao verificada; categoria ok; alternativa: nenhuma (link bloqueado por bot, alternativa nao necessaria)
 
 ## 15. **C++**: _Write your own Operating System_
 - URL: https://www.youtube.com/playlist?list=PLHh55M_Kq4OApWScZyPl5HhgsTJS9MZ6M

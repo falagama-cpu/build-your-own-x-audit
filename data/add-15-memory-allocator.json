@@ -1,0 +1,6 @@
+{
+ "section": "Memory Allocator",
+ "title": "Memory Allocator",
+ "scope": "Alocadores de memoria do zero: malloc/free, arena, slab, buddy e pool allocators, free lists, alinhamento, alocador em Zig/Rust/C, garbage collector do zero (mark-sweep, generacional).",
+ "entries": []
+}

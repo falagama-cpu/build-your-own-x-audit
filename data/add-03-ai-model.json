@@ -1,0 +1,6 @@
+{
+ "section": "AI Model",
+ "title": "AI Model",
+ "scope": "Construir modelos de IA modernos do zero: LLM/GPT do zero (estilo nanoGPT, 'Build a Large Language Model from Scratch'), tokenizer BPE do zero, atencao/transformer passo a passo, treino de modelo pequeno, fine-tuning e LoRA do zero, modelos de difusao do zero.",
+ "entries": []
+}

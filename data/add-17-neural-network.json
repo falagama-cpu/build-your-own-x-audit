@@ -1,0 +1,6 @@
+{
+ "section": "Neural Network",
+ "title": "Neural Network",
+ "scope": "Redes neurais do zero com ferramentas atuais: autograd do zero (micrograd), framework de deep learning minimo, MLP/CNN/RNN/transformer em NumPy, PyTorch ou JAX explicados por dentro, backpropagation passo a passo.",
+ "entries": []
+}

@@ -2,9 +2,9 @@
 
 ## Build your own &lt;insert-technology-here&gt;
 
-> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-07** · 30/30 sections · 472 tutorials · 11 links replaced. Per-section reports: [`audit/`](audit/).
+> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-07** · 31 audited sections · 472 tutorials · 14 links replaced. Per-section reports: [`audit/`](audit/).
 >
-> Legend: 📅 year of publication or last update · 🔁 original link was dead, replaced · ↪ moved, URL updated · 🏷 suggested category · 🆕 new section added by this edition
+> Legend: 📅 year of publication or last update · 🔁 original link was dead, replaced · ↪ moved, URL updated · 🏷 suggested category · 🆕 added by this edition
 
 
 This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch. 
@@ -369,7 +369,7 @@ It's a great way to learn.
 * [**C++**: _Space Invaders from Scratch_](http://nicktasios.nl/posts/space-invaders-from-scratch-part-1.html)
 * [**C#**: _Learn C# by Building a Simple RPG_](https://scottlilly.com/learn-c-by-building-a-simple-rpg-index/) <sub>↪</sub>
 * [**C#**: _Creating a Roguelike Game in C#_](https://roguesharp.wordpress.com/)
-* [**C#**: _Build a C#/WPF RPG_](https://soscsrpg.com/) <sub>↪</sub>
+* [**C#**: _Build a C#/WPF RPG_](https://scottlilly.com/build-a-cwpf-rpg/)
 * [**Go**: _Games With Go_](https://www.youtube.com/playlist?list=PLDZujg-VgQlZUy1iCqBbe5faZLMkA3g2x) [video]
 * [**Java**: _Code a 2D Game Engine using Java - Full Course for Beginners_](https://www.youtube.com/watch?v=025QFeZfeyM) [video]
 * [**Java**: _3D Game Development with LWJGL 3_](https://lwjglgamedev.gitbooks.io/3d-game-development-with-lwjgl/content/)
@@ -377,7 +377,7 @@ It's a great way to learn.
 * [**JavaScript**: _How to Make Flappy Bird in HTML5 With Phaser_](http://www.lessmilk.com/tutorial/flappy-bird-phaser-1)
 * [**JavaScript**: _Developing Games with React, Redux, and SVG_](https://auth0.com/blog/developing-games-with-react-redux-and-svg-part-1/)
 * [**JavaScript**: _Build your own 8-Ball Pool game from scratch_](https://www.youtube.com/watch?v=aXwCrtAo4Wc) [video]
-* [**JavaScript**: _How to Make Your First Roguelike_](https://code.tutsplus.com/c/game-development) <sub>↪</sub>
+* [**JavaScript**: _How to Make Your First Roguelike_](https://web.archive.org/web/20210116214803/https://gamedevelopment.tutsplus.com/tutorials/how-to-make-your-first-roguelike--gamedev-13677) <sub>🔁 original dead: https://gamedevelopment.tutsplus.com/tutorials/how-to-make-your-first-roguelike--gamedev-13677</sub>
 * [**JavaScript**: _Think like a programmer: How to build Snake using only JavaScript, HTML & CSS_](https://www.freecodecamp.org/news/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e) <sub>↪</sub>
 * [**Lua**: _BYTEPATH_](https://github.com/a327ex/blog/issues/30) <sub>↪</sub>
 * [**Python**: _Developing Games With PyGame_](https://pythonprogramming.net/pygame-python-3-part-1-intro/)
@@ -424,7 +424,7 @@ It's a great way to learn.
 * [**Python**: _Implement a Neural Network from Scratch_](https://victorzhou.com/blog/intro-to-neural-networks/) <sub>📅 2026</sub>
 * [**Python**: _Optical Character Recognition (OCR)_](https://aosabook.org/en/500L/optical-character-recognition-ocr.html) <sub>↪</sub>
 * [**Python**: _Traffic signs classification with a convolutional network_](https://navoshta.com/traffic-signs-classification/)
-* [**Python**: _Generate Music using LSTM Neural Network in Keras_](https://towardsdatascience.com/five-practical-applications-of-the-lstm-model-for-time-series-with-code-a7aac0aa85c0/) <sub>↪</sub>
+* [**Python**: _Generate Music using LSTM Neural Network in Keras_](https://web.archive.org/web/20210131195116/https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5) <sub>🔁 original dead: https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5</sub>
 * [**Python**: _An Introduction to Convolutional Neural Networks_](https://victorzhou.com/blog/intro-to-cnns-part-1/) <sub>📅 2019</sub>
 * [**Python**: _Neural Networks: Zero to Hero_](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 * [**Python**: _SlowTorch: Implementation of PyTorch from the ground up in 100% pure Python_](https://github.com/xames3/slowtorch) <sub>📅 2025</sub>
@@ -455,7 +455,7 @@ It's a great way to learn.
 
 * [**C**: _Video Game Physics Tutorial_](https://www.toptal.com/developers/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics) <sub>↪ · 📅 2015</sub>
 * [**C++**: _Game physics series by Allen Chou_](http://allenchou.net/game-physics-series/) <sub>📅 2013</sub>
-* [**C++**: _How to Create a Custom Physics Engine_](https://code.tutsplus.com/c/game-development) <sub>↪ · 📅 2013</sub>
+* [**C++**: _How to Create a Custom Physics Engine_](https://web.archive.org/web/20210131221044/https://gamedevelopment.tutsplus.com/series/how-to-create-a-custom-physics-engine--gamedev-12715) <sub>🔁 original dead: https://gamedevelopment.tutsplus.com/series/how-to-create-a-custom-physics-engine--gamedev-12715 · 📅 2013</sub>
 * [**C++**: _3D Physics Engine Tutorial_](https://www.youtube.com/playlist?list=PLEETnX-uPtBXm1KEr_2zQ6K_0hoGH6JJ0) [video]
 * [**JavaScript**: _How Physics Engines Work_](http://buildnewgames.com/gamephysics/) <sub>📅 2012</sub>
 * [**JavaScript**: _Broad Phase Collision Detection Using Spatial Partitioning_](http://buildnewgames.com/broad-phase-collision-detection/) <sub>📅 2012</sub>
@@ -588,62 +588,62 @@ It's a great way to learn.
 * [**(any)**: _From NAND to Tetris: Building a Modern Computer From First Principles_](https://www.nand2tetris.org/) <sub>↪ · 🏷 Processor</sub>
 * [**(any)**:  build-your-own-x-vibe-coding: BYOX-style tutorials adapted for vibe coding](https://github.com/inFaaa/build-your-own-x-vibe-coding) <sub>📅 2025</sub>
 * [**Alloy**: _The Same-Origin Policy_](https://aosabook.org/en/500L/the-same-origin-policy.html) <sub>↪ · 🏷 Web Browser</sub>
-* [**C**: _Learn how to write a hash table in C_](https://github.com/jamesroutley/write-a-hash-table) <sub>📅 2023 · 🏷 Memory Allocator</sub>
-* [**C**: _The very basics of a terminal emulator_](https://movq.de/blog/postings/2018-02-24/0/POSTING-en.html) <sub>↪ · 📅 2018 · 🏷 Terminal</sub>
+* [**C**: _Learn how to write a hash table in C_](https://github.com/jamesroutley/write-a-hash-table) <sub>📅 2023</sub>
+* [**C**: _The very basics of a terminal emulator_](https://movq.de/blog/postings/2018-02-24/0/POSTING-en.html) <sub>↪ · 📅 2018</sub>
 * [**C**: _Write a System Call_](https://brennan.io/2016/11/14/kernel-dev-ep3/) <sub>📅 2016 · 🏷 Operating System</sub>
-* [**C**: _Sol - An MQTT broker from scratch_](https://codepr.github.io/posts/sol-mqtt-broker) <sub>📅 2019 · 🏷 Network Stack</sub>
-* [**C++**: _Build your own VR headset for $200_](https://github.com/relativty/Relativ) <sub>📅 2024 · 🏷 Game</sub>
-* [**C++**: _How X Window Managers work and how to write one_](https://jichu4n.com/posts/how-x-window-managers-work-and-how-to-write-one-part-i/) <sub>🔁 original dead: https://seasonofcode.com/posts/how-x-window-managers-work-and-how-to-write-one-part-i.html · 🏷 Web Browser</sub>
-* [**C++**: _Writing a Linux Debugger_](https://tartanllama.xyz/posts/writing-a-linux-debugger/setup) <sub>↪ · 📅 2017 · 🏷 Operating System</sub>
-* [**C++**: _How a 64k intro is made_](http://www.lofibucket.com/articles/64k_intro.html) <sub>📅 2017 · 🏷 Game</sub>
+* [**C**: _Sol - An MQTT broker from scratch_](https://codepr.github.io/posts/sol-mqtt-broker) <sub>📅 2019</sub>
+* [**C++**: _Build your own VR headset for $200_](https://github.com/relativty/Relativ) <sub>📅 2024</sub>
+* [**C++**: _How X Window Managers work and how to write one_](https://jichu4n.com/posts/how-x-window-managers-work-and-how-to-write-one-part-i/) <sub>🔁 original dead: https://seasonofcode.com/posts/how-x-window-managers-work-and-how-to-write-one-part-i.html</sub>
+* [**C++**: _Writing a Linux Debugger_](https://tartanllama.xyz/posts/writing-a-linux-debugger/setup) <sub>↪ · 📅 2017</sub>
+* [**C++**: _How a 64k intro is made_](http://www.lofibucket.com/articles/64k_intro.html) <sub>📅 2017</sub>
 * [**C++**: _Make your own Game Engine_](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT) <sub>🏷 Game</sub>
-* [**C#**: _C# Networking: Create a TCP chater server, TCP games, UDP Pong and more_](https://16bpp.net/tutorials/csharp-networking) <sub>🏷 Network Stack</sub>
+* [**C#**: _C# Networking: Create a TCP chater server, TCP games, UDP Pong and more_](https://16bpp.net/tutorials/csharp-networking)
 * [**C#**: _Loading and rendering 3D skeletal animations from scratch in C# and GLSL_](https://www.seanjoflynn.com/research/skeletal-animation.html) <sub>📅 2017</sub>
 * [**Clojure**: _Building a spell-checker_](https://bernhardwenzel.com/articles/clojure-spellchecker/) <sub>📅 2015</sub>
-* [**Go**: _Build A Simple Terminal Emulator In 100 Lines of Golang_](https://ishuah.com/2021/03/10/build-a-terminal-emulator-in-100-lines-of-go/) <sub>📅 2021 · 🏷 Uncategorized</sub>
+* [**Go**: _Build A Simple Terminal Emulator In 100 Lines of Golang_](https://ishuah.com/2021/03/10/build-a-terminal-emulator-in-100-lines-of-go/) <sub>📅 2021</sub>
 * [**Go**: _Let's Create a Simple Load Balancer_](https://kasvith.me/posts/lets-create-a-simple-lb-go/) <sub>📅 2019</sub>
-* [**Go**: _Video Encoding from Scratch_](https://github.com/kevmo314/codec-from-scratch) <sub>📅 2025 · 🏷 Uncategorized</sub>
-* [**Java**: _How to Build an Android Reddit App_](https://www.youtube.com/playlist?list=PLgCYzUzKIBE9HUJU-upNvl3TRVAo9W47y) [video] <sub>🏷 Uncategorized</sub>
+* [**Go**: _Video Encoding from Scratch_](https://github.com/kevmo314/codec-from-scratch) <sub>📅 2025</sub>
+* [**Java**: _How to Build an Android Reddit App_](https://www.youtube.com/playlist?list=PLgCYzUzKIBE9HUJU-upNvl3TRVAo9W47y) [video]
 * [**JavaScript**: _Build Your Own Module Bundler - Minipack_](https://github.com/ronami/minipack) <sub>📅 2021 · 🏷 Front-end Framework / Library</sub>
-* [**JavaScript**: _Learn JavaScript Promises by Building a Promise from Scratch_](https://levelup.gitconnected.com/understand-javascript-promises-by-building-a-promise-from-scratch-84c0fd855720) <sub>📅 2017 · 🏷 Uncategorized</sub>
-* [**JavaScript**: _Implementing promises from scratch (TDD way)_](https://www.mauriciopoppe.com/notes/computer-science/computation/promises/) <sub>📅 2017 · 🏷 Uncategorized</sub>
-* [**JavaScript**: _Implement your own — call(), apply() and bind() method in JavaScript_](https://web.archive.org/web/20180730140300/https://blog.usejournal.com/implement-your-own-call-apply-and-bind-method-in-javascript-42cc85dba1b) <sub>🔁 original dead: https://blog.usejournal.com/implement-your-own-call-apply-and-bind-method-in-javascript-42cc85dba1b · 📅 2018 · 🏷 Uncategorized</sub>
-* [**JavaScript**: _JavaScript Algorithms and Data Structures_](https://github.com/trekhleb/javascript-algorithms) <sub>📅 2026 · 🏷 Uncategorized</sub>
-* [**JavaScript**: _Build a ride hailing app with React Native_](https://pusher.com/tutorials/ride-hailing-react-native) <sub>🏷 Uncategorized</sub>
-* [**JavaScript**: _Build Your Own AdBlocker in (Literally) 10 Minutes_](https://levelup.gitconnected.com/building-your-own-adblocker-in-literally-10-minutes-1eec093b04cd) <sub>📅 2020 · 🏷 Uncategorized</sub>
-* [**Kotlin**: _Build Your Own Cache_](https://github.com/kezhenxu94/cache-lite) <sub>📅 2021 · 🏷 Uncategorized</sub>
+* [**JavaScript**: _Learn JavaScript Promises by Building a Promise from Scratch_](https://levelup.gitconnected.com/understand-javascript-promises-by-building-a-promise-from-scratch-84c0fd855720) <sub>📅 2017</sub>
+* [**JavaScript**: _Implementing promises from scratch (TDD way)_](https://www.mauriciopoppe.com/notes/computer-science/computation/promises/) <sub>📅 2017</sub>
+* [**JavaScript**: _Implement your own — call(), apply() and bind() method in JavaScript_](https://web.archive.org/web/20180730140300/https://blog.usejournal.com/implement-your-own-call-apply-and-bind-method-in-javascript-42cc85dba1b) <sub>🔁 original dead: https://blog.usejournal.com/implement-your-own-call-apply-and-bind-method-in-javascript-42cc85dba1b · 📅 2018</sub>
+* [**JavaScript**: _JavaScript Algorithms and Data Structures_](https://github.com/trekhleb/javascript-algorithms) <sub>📅 2026</sub>
+* [**JavaScript**: _Build a ride hailing app with React Native_](https://pusher.com/tutorials/ride-hailing-react-native)
+* [**JavaScript**: _Build Your Own AdBlocker in (Literally) 10 Minutes_](https://levelup.gitconnected.com/building-your-own-adblocker-in-literally-10-minutes-1eec093b04cd) <sub>📅 2020</sub>
+* [**Kotlin**: _Build Your Own Cache_](https://github.com/kezhenxu94/cache-lite) <sub>📅 2021</sub>
 * [**Lua**: _Building a CDN from Scratch to Learn about CDN_](https://github.com/leandromoreira/cdn-up-and-running) <sub>📅 2026</sub>
-* [**Nim**: _Writing a Redis Protocol Parser_](https://xmonader.github.io/nimdays/day12_resp.html) <sub>🏷 Uncategorized</sub>
-* [**Nim**: _Writing a Build system_](https://xmonader.github.io/nimdays/day11_buildsystem.html) <sub>🏷 Uncategorized</sub>
-* [**Nim**: _Writing a MiniTest Framework_](https://xmonader.github.io/nimdays/day08_minitest.html) <sub>🏷 Uncategorized</sub>
-* [**Nim**: _Writing a DMIDecode Parser_](https://xmonader.github.io/nimdays/day01_dmidecode.html) <sub>🏷 Uncategorized</sub>
-* [**Nim**: _Writing a INI Parser_](https://xmonader.github.io/nimdays/day05_iniparser.html) <sub>🏷 Uncategorized</sub>
-* [**Nim**: _Writing a Link Checker_](https://xmonader.github.io/nimdays/day04_asynclinkschecker.html) <sub>🏷 Uncategorized</sub>
+* [**Nim**: _Writing a Redis Protocol Parser_](https://xmonader.github.io/nimdays/day12_resp.html)
+* [**Nim**: _Writing a Build system_](https://xmonader.github.io/nimdays/day11_buildsystem.html)
+* [**Nim**: _Writing a MiniTest Framework_](https://xmonader.github.io/nimdays/day08_minitest.html)
+* [**Nim**: _Writing a DMIDecode Parser_](https://xmonader.github.io/nimdays/day01_dmidecode.html)
+* [**Nim**: _Writing a INI Parser_](https://xmonader.github.io/nimdays/day05_iniparser.html)
+* [**Nim**: _Writing a Link Checker_](https://xmonader.github.io/nimdays/day04_asynclinkschecker.html)
 * [**Nim**: _Writing a URL Shortening Service_](https://xmonader.github.io/nimdays/day07_shorturl.html)
-* [**Node.js**: _Build a static site generator in 40 lines with Node.js_](https://www.webdevdrops.com/en/build-static-site-generator-nodejs-8969ebe34b22/) <sub>📅 2017 · 🏷 Uncategorized</sub>
+* [**Node.js**: _Build a static site generator in 40 lines with Node.js_](https://www.webdevdrops.com/en/build-static-site-generator-nodejs-8969ebe34b22/) <sub>📅 2017</sub>
 * [**Node.js**: _Building A Simple Single Sign On(SSO) Server And Solution From Scratch In Node.js._](https://codeburst.io/building-a-simple-single-sign-on-sso-server-and-solution-from-scratch-in-node-js-ea6ee5fdf340) <sub>📅 2018</sub>
 * [**Node.js**: _How to create a real-world Node CLI app with Node_](https://www.freecodecamp.org/news/how-to-create-a-real-world-node-cli-app-with-node-391b727bbed3) <sub>↪ · 📅 2018 · 🏷 Command-Line Tool</sub>
 * [**Node.js**: _Build a DNS Server in Node.js_](https://engineerhead.github.io/dns-server/) <sub>📅 2024 · 🏷 Network Stack</sub>
-* [**Node.js**: _Build a Synchronization Engine with Node.js and Y.js_](https://greenvitriol.com/posts/sync-engine-for-everyone) <sub>📅 2025 · 🏷 Uncategorized</sub>
-* [**PHP**: _Write your own MVC from scratch in PHP_ ](https://chaitya62.github.io/2018/04/29/Writing-your-own-MVC-from-Scratch-in-PHP.html) <sub>📅 2018 · 🏷 Uncategorized</sub>
-* [**PHP**: _Make your own blog_](https://ilovephp.jondh.me.uk/en/tutorial/make-your-own-blog) <sub>🏷 Uncategorized</sub>
-* [**PHP**: _Modern PHP Without a Framework_](https://kevinsmith.io/modern-php-without-a-framework) <sub>📅 2018 · 🏷 Uncategorized</sub>
+* [**Node.js**: _Build a Synchronization Engine with Node.js and Y.js_](https://greenvitriol.com/posts/sync-engine-for-everyone) <sub>📅 2025</sub>
+* [**PHP**: _Write your own MVC from scratch in PHP_ ](https://chaitya62.github.io/2018/04/29/Writing-your-own-MVC-from-Scratch-in-PHP.html) <sub>📅 2018</sub>
+* [**PHP**: _Make your own blog_](https://ilovephp.jondh.me.uk/en/tutorial/make-your-own-blog)
+* [**PHP**: _Modern PHP Without a Framework_](https://kevinsmith.io/modern-php-without-a-framework) <sub>📅 2018</sub>
 * [**PHP**: _Code a Web Search Engine in PHP_](https://boyter.org/2013/01/code-for-a-search-engine-in-php-part-1/) <sub>📅 2013 · 🏷 Search Engine</sub>
 * [**Python**: _Build a Deep Learning Library_](https://www.youtube.com/watch?v=o64FV-ez6Gw) [video] <sub>📅 2017 · 🏷 Neural Network</sub>
 * [**Python**: _How to Build a Kick-Ass Mobile Document Scanner in Just 5 Minutes_](https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/) <sub>📅 2014 · 🏷 Visual Recognition System</sub>
-* [**Python**: _Continuous Integration System_](http://aosabook.org/en/500L/a-continuous-integration-system.html) <sub>📅 2023 · 🏷 Uncategorized</sub>
-* [**Python**: _Recommender Systems in Python: Beginner Tutorial_](https://www.datacamp.com/community/tutorials/recommender-systems-python) <sub>🏷 Uncategorized</sub>
-* [**Python**: _Write SMS-spam detector with Scikit-learn_](https://medium.com/@kopilov.vlad/detect-sms-spam-in-kaggle-with-scikit-learn-5f6afa7a3ca2) <sub>📅 2018 · 🏷 Uncategorized</sub>
-* [**Python**: _A Simple Content-Based Recommendation Engine in Python_](http://blog.untrod.com/2016/06/simple-similar-products-recommendation-engine-in-python.html) <sub>📅 2016 · 🏷 Uncategorized</sub>
-* [**Python**: _Learn ML Algorithms by coding: Decision Trees_](https://anderfernandez.com/en/blog/code-decision-tree-python-from-scratch) <sub>🔁 original dead: https://lethalbrains.com/learn-ml-algorithms-by-coding-decision-trees-439ac503c9a4 · 🏷 Uncategorized</sub>
-* [**Python**: _JSON Decoding Algorithm_](https://github.com/cheery/json-algorithm) <sub>📅 2016 · 🏷 Uncategorized</sub>
+* [**Python**: _Continuous Integration System_](http://aosabook.org/en/500L/a-continuous-integration-system.html) <sub>📅 2023</sub>
+* [**Python**: _Recommender Systems in Python: Beginner Tutorial_](https://www.datacamp.com/community/tutorials/recommender-systems-python)
+* [**Python**: _Write SMS-spam detector with Scikit-learn_](https://medium.com/@kopilov.vlad/detect-sms-spam-in-kaggle-with-scikit-learn-5f6afa7a3ca2) <sub>📅 2018</sub>
+* [**Python**: _A Simple Content-Based Recommendation Engine in Python_](http://blog.untrod.com/2016/06/simple-similar-products-recommendation-engine-in-python.html) <sub>📅 2016</sub>
+* [**Python**: _Learn ML Algorithms by coding: Decision Trees_](https://anderfernandez.com/en/blog/code-decision-tree-python-from-scratch) <sub>🔁 original dead: https://lethalbrains.com/learn-ml-algorithms-by-coding-decision-trees-439ac503c9a4</sub>
+* [**Python**: _JSON Decoding Algorithm_](https://github.com/cheery/json-algorithm) <sub>📅 2016</sub>
 * [**Python**: _Build your own Git plugin with python_](https://web.archive.org/web/20240218054021/https://joshburns-xyz.vercel.app/posts/build-your-own-git-plugin) <sub>🔁 original dead: https://joshburns-xyz.vercel.app/posts/build-your-own-git-plugin · 📅 2022 · 🏷 Git</sub>
-* [**Ruby**: _A Pedometer in the Real World_](http://aosabook.org/en/500L/a-pedometer-in-the-real-world.html) <sub>📅 2023 · 🏷 Uncategorized</sub>
-* [**Ruby**: _Creating a Linux Desktop application with Ruby_](https://iridakos.com/tutorials/2018/01/25/creating-a-gtk-todo-application-with-ruby) <sub>📅 2018 · 🏷 Uncategorized</sub>
+* [**Ruby**: _A Pedometer in the Real World_](http://aosabook.org/en/500L/a-pedometer-in-the-real-world.html) <sub>📅 2023</sub>
+* [**Ruby**: _Creating a Linux Desktop application with Ruby_](https://iridakos.com/tutorials/2018/01/25/creating-a-gtk-todo-application-with-ruby) <sub>📅 2018</sub>
 * [**Rust**: _Building a DNS server in Rust_](https://github.com/EmilHernvall/dnsguide/blob/master/README.md) <sub>📅 2025 · 🏷 Network Stack</sub>
-* [**Rust**: _Writing Scalable Chat Service from Scratch_](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html) <sub>📅 2015 · 🏷 Uncategorized</sub>
+* [**Rust**: _Writing Scalable Chat Service from Scratch_](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html) <sub>📅 2015</sub>
 * [**Rust**: _WebGL + Rust: Basic Water Tutorial_](https://www.chinedufn.com/3d-webgl-basic-water-tutorial/) <sub>📅 2019 · 🏷 3D Renderer</sub>
-* [**TypeScript**: _Tiny Package Manager: Learns how npm or Yarn works_](https://github.com/g-plane/tiny-package-manager) <sub>📅 2024 · 🏷 Uncategorized</sub>
+* [**TypeScript**: _Tiny Package Manager: Learns how npm or Yarn works_](https://github.com/g-plane/tiny-package-manager) <sub>📅 2024</sub>
 
 ## Removed in this edition
 

@@ -1,6 +1,6 @@
 # Auditoria: Programming Language
 
-Total: 41 | verificado: 33 | nao_verificado: 1 | falhou: 0 | parcial: 7
+Total: 41 | verificado: 33 | parcial: 7 | nao_verificado: 1 | falhou: 0
 
 ## 1. **(any)**: _mal - Make a Lisp_
 - URL: https://github.com/kanaka/mal#mal---make-a-lisp

@@ -1,0 +1,6 @@
+{
+ "section": "Web Browser",
+ "title": "Web Browser",
+ "scope": "Navegador do zero: parser de HTML/CSS, arvore DOM, layout, renderizacao, rede HTTP, motor JavaScript minimo; livros e series como Web Browser Engineering, motores em Rust/Python/C++.",
+ "entries": []
+}

@@ -1,0 +1,6 @@
+{
+ "section": "Voxel Engine",
+ "title": "Voxel Engine",
+ "scope": "Motor voxel do zero (estilo Minecraft): chunks, greedy meshing, geracao procedural de terreno (noise), iluminacao, em OpenGL/Vulkan/WebGPU com C++/Rust/C/JS.",
+ "entries": []
+}

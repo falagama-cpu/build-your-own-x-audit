@@ -439,8 +439,8 @@
    "title": "**JavaScript**: _How to Make Your First Roguelike_",
    "url": "https://gamedevelopment.tutsplus.com/tutorials/how-to-make-your-first-roguelike--gamedev-13677",
    "http_prior": 200,
-   "link_status": "redirecionado",
-   "link_evidence": "http 200 https://code.tutsplus.com/c/game-development",
+   "link_status": "morto",
+   "link_evidence": "http 301 -> https://code.tutsplus.com/c/game-development... (redireciona para pagina generica/outro artigo: conteudo original removido; soft 404); wayback https://web.archive.org/web/20210116214803/https://gamedevelopment.tutsplus.com/tutorials/how-to-make-your-first-roguelike--gamedev-13677",
    "date": null,
    "date_kind": null,
    "date_source": "data nao encontrada",
@@ -448,8 +448,8 @@
    "version_note": "Tutorial sobre criacao de primeiro jogo Roguelike; versao nao verificada",
    "category_ok": true,
    "category_suggestion": null,
-   "alternative": null,
-   "alternative_reason": "Tutorial sobre jogo Roguelike, categoria Game apropriada",
+   "alternative": "https://web.archive.org/web/20210116214803/https://gamedevelopment.tutsplus.com/tutorials/how-to-make-your-first-roguelike--gamedev-13677",
+   "alternative_reason": null,
    "verdict": "parcial"
   },
   {

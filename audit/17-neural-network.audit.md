@@ -1,6 +1,6 @@
 # Auditoria: Neural Network
 
-Total: 17 | falhou: 0 | verificado: 7 | nao_verificado: 1 | parcial: 9
+Total: 17 | nao_verificado: 0 | parcial: 10 | falhou: 0 | verificado: 7
 
 ## 1. **C#**: _Neural Network OCR_
 - URL: https://www.codeproject.com/Articles/11285/Neural-Network-OCR
@@ -56,7 +56,7 @@ Total: 17 | falhou: 0 | verificado: 7 | nao_verificado: 1 | parcial: 9
 
 ## 14. **Python**: _Generate Music using LSTM Neural Network in Keras_
 - URL: https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
-- NAO_VERIFICADO: link redirecionado [http 301 -> https://towardsdatascience.com/five-practical-applications-of-the-lstm-model-for-time-series-with-code-a7aac0aa85c0/ (HTTP 200 no destino; conteudo redirecionado para outro artigo da mesma autora, nao o original de music generation)]; data nao encontrada; ingles; artigo original redirecionado para outro artigo sobre LSTM (Five Practical Applications of the LSTM Model for Time Series, with Code); Keras/TensorFlow; versao nao verificada; categoria ok; alternativa: nenhuma (link redirecionado para artigo diferente da mesma autora; conteudo original sobre music generation nao mais disponivel no URL original)
+- PARCIAL: link morto [http 301 -> https://towardsdatascience.com/five-practical-applications... (redireciona para pagina generica/outro artigo: conteudo original removido; soft 404); wayback https://web.archive.org/web/20210131195116/https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5]; data nao encontrada; ingles; artigo original redirecionado para outro artigo sobre LSTM (Five Practical Applications of the LSTM Model for Time Series, with Code); Keras/TensorFlow; versao nao verificada; categoria ok; alternativa: https://web.archive.org/web/20210131195116/https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
 
 ## 15. **Python**: _An Introduction to Convolutional Neural Networks_
 - URL: https://victorzhou.com/blog/intro-to-cnns-part-1/

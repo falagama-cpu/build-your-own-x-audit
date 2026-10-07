@@ -1,6 +1,6 @@
 # Auditoria: Game
 
-Total: 34 | parcial: 27 | falhou: 0 | nao_verificado: 0 | verificado: 7
+Total: 34 | parcial: 27 | nao_verificado: 0 | falhou: 0 | verificado: 7
 
 ## 1. **C**: _Handmade Hero_
 - URL: https://handmadehero.org/
@@ -100,7 +100,7 @@ Total: 34 | parcial: 27 | falhou: 0 | nao_verificado: 0 | verificado: 7
 
 ## 25. **JavaScript**: _How to Make Your First Roguelike_
 - URL: https://gamedevelopment.tutsplus.com/tutorials/how-to-make-your-first-roguelike--gamedev-13677
-- PARCIAL: link redirecionado [http 200 https://code.tutsplus.com/c/game-development]; data nao encontrada; JavaScript; Tutorial sobre criacao de primeiro jogo Roguelike; versao nao verificada; categoria ok; alternativa: nenhuma (Tutorial sobre jogo Roguelike, categoria Game apropriada)
+- PARCIAL: link morto [http 301 -> https://code.tutsplus.com/c/game-development... (redireciona para pagina generica/outro artigo: conteudo original removido; soft 404); wayback https://web.archive.org/web/20210116214803/https://gamedevelopment.tutsplus.com/tutorials/how-to-make-your-first-roguelike--gamedev-13677]; data nao encontrada; JavaScript; Tutorial sobre criacao de primeiro jogo Roguelike; versao nao verificada; categoria ok; alternativa: https://web.archive.org/web/20210116214803/https://gamedevelopment.tutsplus.com/tutorials/how-to-make-your-first-roguelike--gamedev-13677
 
 ## 26. **JavaScript**: _Think like a programmer: How to build Snake using only JavaScript, HTML & CSS_
 - URL: https://medium.freecodecamp.org/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e

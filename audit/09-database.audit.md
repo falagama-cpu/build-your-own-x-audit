@@ -1,6 +1,6 @@
 # Auditoria: Database
 
-Total: 13 | falhou: 4 | verificado: 0 | nao_verificado: 0 | parcial: 9
+Total: 13 | falhou: 0 | parcial: 13 | verificado: 0 | nao_verificado: 0
 
 ## 1. **C**: _Let's Build a Simple Database_
 - URL: https://cstack.github.io/db_tutorial/
@@ -8,7 +8,7 @@ Total: 13 | falhou: 4 | verificado: 0 | nao_verificado: 0 | parcial: 9
 
 ## 2. **C++**: _Build Your Own Redis from Scratch_
 - URL: https://build-your-own.org/redis
-- FALHOU: link bloqueado_bot [http 403 https://build-your-own.org/redis]; data nao encontrada; C++; versao nao verificada; categoria ok; alternativa: nenhuma (Link bloqueado por bot, alternativa nao necessaria)
+- PARCIAL: link bloqueado_bot [http 403 https://build-your-own.org/redis]; data nao encontrada; C++; versao nao verificada; categoria ok; alternativa: nenhuma (Link bloqueado por bot, alternativa nao necessaria)
 
 ## 3. **C#**: _Build Your Own Database_
 - URL: https://www.codeproject.com/Articles/1029838/Build-Your-Own-Database
@@ -20,15 +20,15 @@ Total: 13 | falhou: 4 | verificado: 0 | nao_verificado: 0 | parcial: 9
 
 ## 5. **Crystal**: _Why you should build your own NoSQL Database_
 - URL: https://medium.com/@marceloboeira/why-you-should-build-your-own-nosql-database-9bbba42039f5
-- FALHOU: link bloqueado_bot [http 403 https://medium.com/@marceloboeira/why-you-should-build-your-own-nosql-database-9bbba42039f5]; data nao encontrada; Crystal; versao nao verificada; categoria ok; alternativa: nenhuma (Link bloqueado por bot, alternativa nao necessaria)
+- PARCIAL: link bloqueado_bot [http 403 https://medium.com/@marceloboeira/why-you-should-build-your-own-nosql-database-9bbba42039f5]; data nao encontrada; Crystal; versao nao verificada; categoria ok; alternativa: nenhuma (Link bloqueado por bot, alternativa nao necessaria)
 
 ## 6. **Go**: _Build Your Own Database from Scratch: From B+Tree To SQL in 3000 Lines_
 - URL: https://build-your-own.org/database/
-- FALHOU: link bloqueado_bot [http 403 https://build-your-own.org/database/]; data nao encontrada; Go; versao nao verificada; categoria ok; alternativa: nenhuma (Link bloqueado por bot, alternativa nao necessaria)
+- PARCIAL: link bloqueado_bot [http 403 https://build-your-own.org/database/]; data nao encontrada; Go; versao nao verificada; categoria ok; alternativa: nenhuma (Link bloqueado por bot, alternativa nao necessaria)
 
 ## 7. **Go**: _Code a database in 45 steps: a series of test-driven small coding puzzles_
 - URL: https://trialofcode.org/database/
-- FALHOU: link bloqueado_bot [http 403 https://trialofcode.org/database/]; data nao encontrada; Go; versao nao verificada; categoria ok; alternativa: nenhuma (Link bloqueado por bot, alternativa nao necessaria)
+- PARCIAL: link bloqueado_bot [http 403 https://trialofcode.org/database/]; data nao encontrada; Go; versao nao verificada; categoria ok; alternativa: nenhuma (Link bloqueado por bot, alternativa nao necessaria)
 
 ## 8. **Go**: _Build Your Own Redis from Scratch_
 - URL: https://www.build-redis-from-scratch.dev/

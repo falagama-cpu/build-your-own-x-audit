@@ -1,6 +1,6 @@
 # Auditoria: Regex Engine
 
-Total: 9 | parcial: 1 | verificado: 8 | falhou: 0 | nao_verificado: 0
+Total: 9 | parcial: 1 | falhou: 0 | nao_verificado: 0 | verificado: 8
 
 ## 1. **C**: _A Regular Expression Matcher_
 - URL: https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html

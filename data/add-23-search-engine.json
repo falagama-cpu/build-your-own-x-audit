@@ -1,0 +1,6 @@
+{
+ "section": "Search Engine",
+ "title": "Search Engine",
+ "scope": "Motor de busca do zero com tecnicas atuais: indice invertido, tokenizacao, ranking TF-IDF/BM25, internals de Lucene/Tantivy, crawler, busca vetorial com embeddings (HNSW, ANN), busca hibrida, recuperacao para RAG.",
+ "entries": []
+}

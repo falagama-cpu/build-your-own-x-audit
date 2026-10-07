@@ -1,0 +1,6 @@
+{
+ "section": "Distributed Systems",
+ "title": "Distributed Systems",
+ "scope": "Sistemas distribuidos do zero: Raft/Paxos implementados passo a passo, key-value store distribuido, laboratorios do MIT 6.824/6.5840, Gossip Glomers (Fly.io/Maelstrom), consistent hashing, CRDTs, replicacao e particionamento.",
+ "entries": []
+}

@@ -1,0 +1,6 @@
+{
+ "section": "Physics Engine",
+ "title": "Physics Engine",
+ "scope": "Motor de fisica do zero com material recente (preferir 2019+): corpos rigidos, deteccao de colisao (SAT, GJK/EPA, broad phase), solvers por impulso, XPBD/position based dynamics, soft body, tecido, engines em Rust/C++/JS/WebGPU.",
+ "entries": []
+}
