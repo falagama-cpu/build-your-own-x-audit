@@ -66,7 +66,7 @@
    "link_evidence": "http://github.com/caprover/caprover — HTTP 200",
    "date": "2017-10",
    "date_kind": "criacao_repo",
-   "date_source": "data nao encontrada",
+   "date_source": "api_github: created_at",
    "summary_pt": "PaaS escalavel usando Docker Swarm e nginx automatico. Deploy por git push, SSL via Let's Encrypt, CLI e web GUI. Suporta NodeJS, Python, PHP, Ruby, Go e mais. Nao requer conhecimento de Docker ou nginx.",
    "why": "Mostra como construir um PaaS escalavel com Docker Swarm e nginx sob o capo. Explica o fluxo completo: git push -> build -> deploy -> SSL -> logs. Exemplo vivo de arquitetura de PaaS.",
    "verdict": "verificado"
@@ -106,23 +106,6 @@
    "verdict": "verificado"
   },
   {
-   "title": "LoomDeploy: Self-hosted PaaS - deploy any app to your own VPS with Git push, auto SSL, live logs, rollbacks and health monitoring",
-   "url": "https://github.com/youssef509/loomdeploy",
-   "author": "youssef509",
-   "type": "repositorio",
-   "language": "Go",
-   "level": "intermediario",
-   "free": true,
-   "link_status": "vivo",
-   "link_evidence": "http://github.com/youssef509/loomdeploy — HTTP 200, pushed_at 2026-06-01T03:53:46Z",
-   "date": "2026-05",
-   "date_kind": "criacao_repo",
-   "date_source": "api_github: created_at=2026-05-20",
-   "summary_pt": "PaaS auto-hospedavel em Go com deploy por git push, SSL automatico via Traefik, logs em tempo real, rollback, health checks e multi-usuario. Suporta NodeJS, Python, Go, Ruby, PHP, Java sem Dockerfile.",
-   "why": "Exemplo moderno de PaaS construido do zero em Go + Gin + SQLite. Mostra arquitetura completa: backend Go, frontend Nuxt, proxy Traefik, detecao automatica de framework, webhooks para auto-deploy.",
-   "verdict": "verificado"
-  },
-  {
    "title": "Heroku Cloud Native Buildpacks overview and tutorials",
    "url": "https://github.com/heroku/buildpacks",
    "author": "Heroku",
@@ -157,23 +140,6 @@
    "verdict": "verificado"
   },
   {
-   "title": "Coolify: The Ultimate Self-Hosted Platform as a Service?",
-   "url": "https://www.youtube.com/watch?v=6IZF_VOlOJM",
-   "author": "Christian Lempa",
-   "type": "video",
-   "language": "Conceitos",
-   "level": "iniciante",
-   "free": true,
-   "link_status": "vivo",
-   "link_evidence": "oembed: https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=6IZF_VOlOJM&format=json — title=Coolify: The Ultimate Self-Hosted Platform as a Service?, author=Christian Lempa",
-   "date": "2026-01",
-   "date_kind": "publicacao",
-   "date_source": "youtube: uploadDate=2026-01-28",
-   "summary_pt": "Video tutorial completo de 50K visualizacoes sobre Coolify, o PaaS auto-hospedavel mais popular. Cobre instalacao em hardware proprio, configuracao do primeiro servidor, deploy por Docker e Git, e fluxos de trabalho.",
-   "why": "Mostra visualmente como um PaaS funciona do ponto de vista do usuario: instalar, conectar servidor, deploy, gerenciar dominios e SSL. Bom para entender a experiencia do usuario final.",
-   "verdict": "verificado"
-  },
-  {
    "title": "Host your own Vercel",
    "url": "https://www.youtube.com/watch?v=nCWznQ0HY9c",
    "author": "Syntax",
@@ -188,23 +154,6 @@
    "date_source": "youtube: uploadDate=2024-02-14",
    "summary_pt": "Podcast do Syntax comparando PaaS auto-hospedaveis: Coolify, CapRover, Dokku, Piku, Cuber, Acorn. Discussa beneficios de possuir proprio PaaS, estruturas de pagamento, Kubernetes vs Docker.",
    "why": "Apresenta uma visao geral comparativa de multi PaaS auto-hospedaveis, ajudando a entender as diferencas entre Dokku, Coolify, CapRover e outras alternativas.",
-   "verdict": "verificado"
-  },
-  {
-   "title": "Container Day: Empire - Building a PaaS with Amazon ECS",
-   "url": "https://www.youtube.com/watch?v=K_eDmHFaTdQ",
-   "author": "Amazon Web Services",
-   "type": "video",
-   "language": "Conceitos",
-   "level": "avancado",
-   "free": true,
-   "link_status": "vivo",
-   "link_evidence": "oembed: https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=K_eDmHFaTdQ&format=json — title=Container Day: Empire - Building a PaaS with Amazon ECS, author=Amazon Web Services",
-   "date": "2016-01",
-   "date_kind": "publicacao",
-   "date_source": "youtube: uploadDate=2016-01-25",
-   "summary_pt": "Apresentacao da AWS sobre Empire, um PaaS auto-hospedavel construido sobre Amazon ECS. Mostra como uma equipe pode construir uma plataforma Heroku-compatible API usando ECS, containers e servicos de nuvem.",
-   "why": "Classico de 2016 que mostra como construir um PaaS em cima de ECS. Ainda valioso para entender os principios de construir uma plataforma de deploy em cima de uma infraestrutura de containers.",
    "verdict": "verificado"
   },
   {
@@ -225,23 +174,6 @@
    "verdict": "verificado"
   },
   {
-   "title": "piku/webapp-tutorial: piku experiments with build a web app fast",
-   "url": "https://github.com/piku/webapp-tutorial",
-   "author": "piku",
-   "type": "repositorio",
-   "language": "Shell",
-   "level": "intermediario",
-   "free": true,
-   "link_status": "vivo",
-   "link_evidence": "http://github.com/piku/webapp-tutorial — HTTP 200",
-   "date": "2024-01",
-   "date_kind": "criacao_repo",
-   "date_source": "api_github: created_at=2024-01",
-   "summary_pt": "Tutorial que mostra como construir um webapp com deploy Heroku-like usando piku. Explica o fluxo completo: SSH post-receive hook, deteccao de runtime, instalacao de dependencias, nginx config automatica, TLS Let's Encrypt.",
-   "why": "Mostra detalhes de implementacao de um PaaS minimalista. Explica como o git push dispara hooks, como detecar runtime (Python, Node, Go), como configurar nginx dinamicamente, e como implementar processos com uwsgi.",
-   "verdict": "verificado"
-  },
-  {
    "title": "Forge: Building Your Own PaaS with Terraform and Ansible",
    "url": "https://dev.to/nelsonramos/how-i-built-a-self-hosted-paas-on-aws-from-scratch-no-docker-no-kubernetes-bl8",
    "author": "nelsonramos",
@@ -256,23 +188,6 @@
    "date_source": "pagina: rodape",
    "summary_pt": "Artigo sobre construcao de um PaaS sem Docker ou Kubernetes usando cgroups, namespaces, Caddy, SQLite, Terraform e Ansible. Explica o fluxo completo de build, deploy, health checks, logs e rollback.",
    "why": "Demonstra construcao de PaaS do zero sem containers. Ensina sobre isolamento de processos com cgroups/namespaces, deploy via webhook GitHub, build em containers temporarios, e proxy reverso com Caddy.",
-   "verdict": "verificado"
-  },
-  {
-   "title": "The building blocks of a Cloud Native Buildpack",
-   "url": "https://buildpacks.io/docs/for-buildpack-authors/tutorials/basic-buildpack/02_building-blocks-cnb/",
-   "author": "Cloud Native Buildpacks",
-   "type": "documentacao",
-   "language": "Conceitos",
-   "level": "intermediario",
-   "free": true,
-   "link_status": "vivo",
-   "link_evidence": "http://buildpacks.io/docs/for-buildpack-authors/tutorials/basic-buildpack/02_building-blocks-cnb/ — HTTP 200",
-   "date": "2024",
-   "date_kind": "publicacao",
-   "date_source": "pagina: rodape",
-   "summary_pt": "Tutorial sobre os blocos fundamentais de um Cloud Native Buildpack: detect, build, e release. Mostra como criar buildpacks do zero usando pack CLI e a especificacao CNB.",
-   "why": "Guia para construir buildpacks do zero seguindo a padronizacao CNB. Ensina sobre detect phase (identificar linguagem/framework), build phase (instalar dependencias, compilar), e release phase (gerar processos). Fundamento para criar seu proprio PaaS.",
    "verdict": "verificado"
   },
   {

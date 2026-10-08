@@ -2,7 +2,7 @@
 
 ## Build your own &lt;insert-technology-here&gt;
 
-> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-07** · 31 audited sections · 472 tutorials · 14 links replaced. Per-section reports: [`audit/`](audit/).
+> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-08** · 31 audited sections · 579 tutorials · 14 links replaced. Per-section reports: [`audit/`](audit/).
 >
 > Legend: 📅 year of publication or last update · 🔁 original link was dead, replaced · ↪ moved, URL updated · 🏷 suggested category · 🆕 added by this edition
 
@@ -68,6 +68,14 @@ It's a great way to learn.
 * [**Python**: _A Large Language Model (LLM)_](https://github.com/rasbt/LLMs-from-scratch) <sub>📅 2026</sub>
 * [**Python**: _Diffusion Models for Image Generation_](https://huggingface.co/learn/diffusion-course/en/unit1/3)
 * [**Python**: _RAG for Document Search_](https://github.com/langchain-ai/rag-from-scratch) <sub>📅 2025</sub>
+* [**Python**: _Let's reproduce GPT-2 (124M)_](https://www.youtube.com/watch?v=l8pRSuU81PU) <sub>🆕 · 📅 2024</sub>
+* [**Python**: _build nanoGPT_](https://github.com/karpathy/build-nanogpt) <sub>🆕 · 📅 2024</sub>
+* [**Python**: _minbpe_](https://github.com/karpathy/minbpe) <sub>🆕 · 📅 2024</sub>
+* [**Python**: _Let's Build the GPT Tokenizer: A Complete Guide to Tokenization in LLMs_](https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers.html) <sub>🆕 · 📅 2025</sub>
+* [**Python**: _Build a Large Language Model (From Scratch)_](https://sebastianraschka.com/llms-from-scratch) <sub>🆕 · 📅 2024</sub>
+* [**Python**: _The Annotated Diffusion Model_](https://huggingface.co/blog/annotated-diffusion) <sub>🆕 · 📅 2022</sub>
+* [**Python**: _Fine-tuning LLM with LoRA (Low-Rank Adaptation)_](https://github.com/tsmatz/finetune_llm_with_lora) <sub>🆕 · 📅 2025</sub>
+* [**Conceitos**: _How diffusion models work: the math from scratch_](https://theaisummer.com/diffusion-models) <sub>🆕 · 📅 2022</sub>
 
 #### Build your own `Augmented Reality`
 
@@ -189,7 +197,36 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 * [**Proxmox VE**: _How to Install & Configure Proxmox VE | Full Lab Setup + Real-World Implementation_](https://www.youtube.com/watch?v=C3Z2YSRO22I) <sub>🆕 · 📅 2026</sub>
 * [**KVM/QEMU**: _Efficient live full disk backup_](https://libvirt.org/kbase/live_full_disk_backup.html) <sub>🆕 · 📅 2026</sub>
 
-##### 5. Client Access & Integration for VM/VPS
+##### 5. Cloud Networking
+
+* [**Bash/Conceitos**: _Building Your Own Virtual Private Cloud (VPC) on Linux: A Complete Beginner's Guide_](https://dev.to/mart_young_ce778e4c31eb33/building-your-own-virtual-private-cloud-vpc-on-linux-a-complete-beginners-guide-1pnj) <sub>🆕 · 📅 2025</sub>
+* [**Bash/Conceitos**: _How to Build a Virtual Bridge Between Network Namespaces on Linux_](https://oneuptime.com/blog/post/2026-03-20-virtual-bridge-network-namespaces-linux/view) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Open vSwitch Advanced Features_](https://docs.openvswitch.org/en/latest/tutorials/ovs-advanced) <sub>🆕 · 📅 2024</sub>
+* [**HAProxy**: _HAProxy Load Balancer Configuration Basics: Step-by-Step_](https://www.haproxy.com/blog/haproxy-configuration-basics-load-balance-your-servers) <sub>🆕 · 📅 2021</sub>
+* [**Conceitos**: _L4 vs L7 Load Balancing_](https://shipthatcode.com/courses/build-load-balancer/lessons/l4-vs-l7) <sub>🆕 · 📅 2024</sub>
+* [**iptables**: _iptables firewall · GitHub_](https://gist.github.com/DominicBreuker/c948d938adc9257585fc2f40d50b96c4) <sub>🆕 · 📅 2017</sub>
+* [**nftables**: _How to Write nftables Rules from Scratch on RHEL_](https://oneuptime.com/blog/post/2026-03-04-write-nftables-rules-from-scratch-rhel-9/view) <sub>🆕 · 📅 2026</sub>
+* [**Bash**: _How to Configure Dual-Stack IPv4/IPv6 Networking on Linux_](https://oneuptime.com/blog/post/2026-03-20-dual-stack-ipv4-ipv6-linux/view) <sub>🆕 · 📅 2026</sub>
+* [**Go**: _Building an IP Address Manager in Go_](https://themsaid.com/building-an-ip-address-manager-in-go) <sub>🆕 · 📅 2025</sub>
+* [**P4/Java/Python**: _Next-Gen SDN Tutorial (Advanced)_](https://github.com/opennetworkinglab/ngsdn-tutorial) <sub>🆕 · 📅 2022</sub>
+* [**Go/Python/JavaScript**: _Building a Software-Defined Network with Open-Source Components_](https://github.com/zenithsoul/BuildNetWorkToCloud) <sub>🆕 · 📅 2026</sub>
+* [**BGP/BIRD**: _Running BGP on a Linux server with BIRD Routing Daemon_](https://skyenet.tech/bird) <sub>🆕 · 📅 2022</sub>
+
+##### 6. Cloud Storage
+
+* [**JavaScript/Node.js**: _S3 From Scratch_](https://github.com/anthonybudd/s3-from-scratch) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _CloudDS: How to Build an Amazon S3 Clone_](https://markpapadakis.medium.com/cloudds-how-to-build-an-amazon-s3-clone-11c9f9d4d249) <sub>🆕 · 📅 2013</sub>
+* [**Go**: _MinIO: High-Performance S3-Compatible Object Storage_](https://github.com/minio/minio) <sub>🆕 · 📅 2015</sub>
+* [**Rust**: _RustFS: High-Performance S3-Compatible Distributed Object Storage_](https://github.com/rustfs/rustfs) <sub>🆕 · 📅 2023</sub>
+* [**Go**: _SeaweedFS: Distributed Storage for Object, File, and Iceberg_](https://github.com/seaweedfs/seaweedfs) <sub>🆕 · 📅 2014</sub>
+* [**Conceitos/Matemática**: _Reed-Solomon Erasure Coding Explained by Backblaze_](https://www.backblaze.com/blog/reed-solomon/) <sub>🆕 · 📅 2015</sub>
+* [**Bash/Linux**: _Building a Block Storage iSCSI Gateway_](https://www.vultr.com/docs/how-to-create-a-block-storage-iscsi-gateway) <sub>🆕 · 📅 2026</sub>
+* [**C/Python/Shell**: _Writing Your Own NBD Server with nbdkit_](https://libguestfs.org/nbdkit.1.html) <sub>🆕</sub>
+* [**Conceitos/Linux**: _Thin Provisioning and Snapshots in Linux (device-mapper)_](https://kernel.org/doc/html/latest/admin-guide/device-mapper/thin-provisioning.html) <sub>🆕</sub>
+* [**Bash/Linux**: _Introduction to LVM Thin Provisioning_](https://linuxconfig.org/introduction-to-lvm-thin-provisioning) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos/C**: _Qcow2 Image File Format Specification_](https://www.qemu.org/docs/master/interop/qcow2.html) <sub>🆕</sub>
+
+##### 7. Client Access & Integration for VM/VPS
 
 * [**Python**: _SSH API for Linux VPS automation_](https://github.com/vibheksoni/ssh-api) <sub>🆕 · 📅 2024</sub>
 * [**WireGuard**: _How to Set Up Your Own WireGuard VPN Server on a VPS_](https://www.lineserve.net/blog/how-to-set-up-your-own-vpn-server) <sub>🆕 · 📅 2023</sub>
@@ -204,26 +241,24 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 * [**Python**: _PVEmanager - Self-hosted Proxmox Panel_](https://github.com/markmorado/pvemanager) <sub>🆕 · 📅 2025</sub>
 * [**Conceitos (Proxmox API)**: _Proxmox API Viewer_](https://pve.proxmox.com/pve-docs/api-viewer/index.html) <sub>🆕 · 📅 2026</sub>
 
-##### 6. Accounts, Billing & VPS Provisioning
+##### 8. Accounts, Billing & VPS Provisioning
 
 * [**PHP**: _Paymenter: Free and open-source webshop solution for hostings_](https://github.com/Paymenter/Paymenter) <sub>🆕 · 📅 2026</sub>
 * [**PHP**: _Virtualizor | Paymenter Extension Docs_](https://paymenter.org/docs/extensions/virtualizor) <sub>🆕</sub>
-* [**PHP**: _How to Set Up Paymenter: The Best Open-Source Hosting Panel!!_](https://www.youtube.com/watch?v=EFVnL4R3prw) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _Stripe Billing: Subscription and invoicing documentation_](https://docs.stripe.com/billing) <sub>🆕</sub>
 * [**Java**: _Kill Bill: Open-Source Subscription Billing & Payments Platform_](https://github.com/killbill/killbill) <sub>🆕 · 📅 2026</sub>
 * [**Conceitos**: _Multi-Tenancy and Authorization_](https://blog.killbill.io/blog/multi-tenancy-authorization) <sub>🆕 · 📅 2015</sub>
 * [**Ruby**: _Lago API: Open Source Metering and Usage Based Billing_](https://github.com/getlago/lago-api) <sub>🆕 · 📅 2026</sub>
-* [**Python**: _TokenToll: self-hostable billing infrastructure for LLM APIs and SaaS products_](https://github.com/AlameerAshraf/tokentoll) <sub>🆕 · 📅 2026</sub>
-* [**TypeScript**: _Multi-Tenant Subscription SaaS API (Node.js, Express, TypeScript, Prisma, JWT, Redis)_](https://github.com/sandstacks/Multi-Tenant-Saas) <sub>🆕 · 📅 2026</sub>
-* [**Go**: _Multi-Tenant SaaS Billing & Subscription API (Go + Gin)_](https://github.com/OnkuWole/multitenant_billing) <sub>🆕 · 📅 2025</sub>
-* [**PHP**: _Subscribify · Multitenant Billing SaaS (Laravel + Stripe Cashier)_](https://github.com/earl-cod3/Subscribify-multitenant-billing-SaaS-Laravel) <sub>🆕 · 📅 2025</sub>
-* [**Node.js**: _How I Built a Multi-tenant SaaS Product in Node.js_](https://dev.to/cod3kid/how-i-built-a-multi-tenant-saas-product-in-nodejs-3m0b) <sub>🆕 · 📅 2022</sub>
-* [**Ruby**: _Building a Subscription Billing System From Scratch with Rails and Stripe_](https://dev.to/jakemmarsh/building-a-subscription-billing-system-from-scratch-with-rails-and-stripe-3o2k) <sub>🆕 · 📅 2019</sub>
+* [**PHP**: _FOSSBilling: Free and open-source hosting automation_](https://github.com/FOSSBilling/FOSSBilling) <sub>🆕 · 📅 2026</sub>
+* [**Bash**: _kvm-install-vm: Bash script to build local virtual machines using KVM/libvirt and cloud-init_](https://github.com/giovtorres/kvm-install-vm) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Building Multi-Tenant SaaS Architectures [Book]_](https://www.oreilly.com/library/view/building-multi-tenant-saas/9781098140632) <sub>🆕</sub>
+* [**Conceitos**: _OpenID Connect Core 1.0 Specification_](https://openid.net/specs/openid-connect-core-1_0.txt) <sub>🆕 · 📅 2023</sub>
+* [**Java**: _Keycloak: Open Source Identity and Access Management_](https://www.keycloak.org/documentation.html) <sub>🆕 · 📅 2026</sub>
 
-##### 7. Your Own Cloud
+##### 9. Your Own Cloud
 
 * [**Python/Shell**: _DevStack — All-In-One Single Machine_](https://docs.openstack.org/devstack/latest/guides/single-machine.html) <sub>🆕 · 📅 2026</sub>
 * [**Proxmox**: _Proxmox VE Cluster_](https://pve.proxmox.com/wiki/Proxmox_VE_Cluster) <sub>🆕</sub>
-* [**Go**: _SeaweedFS — Distributed Storage System_](https://github.com/seaweedfs/seaweedfs) <sub>🆕 · 📅 2026</sub>
 * [**Conceitos**: _Coding Challenges — Build Your Own Load Balancer_](https://codingchallenges.fyi/challenges/challenge-load-balancer) <sub>🆕 · 📅 2026</sub>
 * [**C**: _HAProxy — Starter Guide_](https://github.com/haproxy/haproxy/blob/master/doc/intro.txt) <sub>🆕 · 📅 2026</sub>
 * [**C++**: _PowerDNS Authoritative — Getting Started_](https://doc.powerdns.com/authoritative/operating.html) <sub>🆕 · 📅 2026</sub>
@@ -234,42 +269,132 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 * [**Proxmox**: _From Zero to Proxmox Cluster: Building a Homelab on Old Hardware_](https://dev.to/fedya_serafiev/from-zero-to-proxmox-cluster-building-a-homelab-on-old-hardware-4no9) <sub>🆕 · 📅 2026</sub>
 * [**Kubernetes/Shell**: _Building a Kubernetes Cluster from Scratch with K3s_](https://docs.k3s.io/) <sub>🆕 · 📅 2026</sub>
 
-##### 8. Platform as a Service (Heroku-like)
+##### 10. Containers & Kubernetes Internals
+
+* [**Go**: _Kubernetes The Hard Way_](https://github.com/kelseyhightower/kubernetes-the-hard-way) <sub>🆕 · 📅 2016</sub>
+* [**Go**: _A Kubernetes Internals Deep Dive_](https://github.com/sigridjineth/k8s-hard-way) <sub>🆕 · 📅 2026</sub>
+* [**Go**: _Kubernetes Sample Controller_](https://github.com/kubernetes/sample-controller) <sub>🆕 · 📅 2017</sub>
+* [**Bash/Linux**: _Building a Container Network Interface (CNI) from Scratch_](https://github.com/f1ko/demystifying-cni) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _The CNI Specification_](https://github.com/containernetworking/cni/blob/main/SPEC.md) <sub>🆕 · 📅 2025</sub>
+* [**Go**: _DIY Service Mesh: Build a Service Mesh from Scratch in Go_](https://github.com/ramonberrutti/diy-service-mesh) <sub>🆕 · 📅 2024</sub>
+
+##### 11. Infrastructure as Code & CI/CD
+
+* [**Terraform/HCL**: _Learn Terraform from Scratch_](https://learn-terraform-from-scratch.readthedocs.io/en/latest/hello-world.html) <sub>🆕 · 📅 2024</sub>
+* [**Terraform/HCL**: _Terraform Made Easy: A Hands-On Introduction for Beginners_](https://dev.to/anand_ghangoria_125645bf4/terraform-made-easy-a-hands-on-introduction-for-beginners-fl) <sub>🆕 · 📅 2025</sub>
+* [**Go**: _Escrevendo um Provider Terraform do Zero com o Plugin Framework_](https://developer.hashicorp.com/terraform/tutorials/providers-plugin-framework/providers-plugin-framework-provider) <sub>🆕 · 📅 2024</sub>
+* [**HCL**: _OpenTofu: Documentation (Introduction)_](https://opentofu.org/docs/intro/) <sub>🆕 · 📅 2024</sub>
+* [**YAML**: _Learn Ansible 2.16: Writing Your First Playbook_](https://docs.ansible.com/projects/ansible-core/2.16/getting_started/get_started_playbook.html) <sub>🆕 · 📅 2024</sub>
+* [**YAML**: _Ansible Tutorial for Beginners 2026 - Getting Started with Playbooks_](https://lucaberton.com/blog/ansible-tutorial-beginners-guide-2026) <sub>🆕 · 📅 2026</sub>
+* [**YAML**: _Getting Started with Argo CD - GitOps Tutorial_](https://argo-cd.readthedocs.io/en/release-2.0/getting_started) <sub>🆕 · 📅 2023</sub>
+* [**YAML**: _Flux CD: Get Started Guide_](https://v2-1.docs.fluxcd.io/flux/get-started) <sub>🆕 · 📅 2024</sub>
+* [**YAML**: _Build a CI/CD Pipeline with GitHub Actions: A 4-Step Guide_](https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps) <sub>🆕 · 📅 2024</sub>
+* [**Inglês**: _Jenkins Pipeline Tutorial: Build a CI/CD Pipeline from Scratch_](https://www.youtube.com/watch?v=Rrl9H9ITcTo) <sub>🆕 · 📅 2024</sub>
+* [**HCL**: _Blue/Green Deployments and Canary Tests with Terraform_](https://developer.hashicorp.com/terraform/tutorials/aws/blue-green-canary-tests-deployments) <sub>🆕 · 📅 2024</sub>
+* [**YAML**: _GitOps Mastery Tutorial - Complete Hands-On Guide_](https://github.com/Salwan-Mohamed/gitops-mastery-tutorial) <sub>🆕 · 📅 2023</sub>
+
+##### 12. Observability & Monitoring
+
+* [**Go**: _Getting Started | Prometheus_](https://prometheus.io/docs/prometheus/latest/getting_started/) <sub>🆕</sub>
+* [**Go**: _Setting Up Prometheus and Grafana for Linux Server Monitoring_](https://akashanil.dev/labs/linux-monitoring-stack/) <sub>🆕</sub>
+* [**Go**: _Prometheus & Grafana, In Depth: Scraping, PromQL, Alertmanager & Dashboards (Hands-On)_](https://kloudvin.com/learn/devops-zero-to-hero/prometheus-grafana-monitoring-stack-hands-on/) <sub>🆕</sub>
+* [**Python**: _TraceLite: A Distributed Tracing System Built from Scratch in Python_](https://github.com/hajirufai/tracelite) <sub>🆕 · 📅 2026</sub>
+* [**Java**: _Lumen: Self-Hosted Distributed Tracing System_](https://github.com/kanagaabishek/lumen) <sub>🆕 · 📅 2026</sub>
+* [**Go**: _Building an Alerting Pipeline from Scratch: Prometheus, Alertmanager, and the Alert That Actually Fired_](https://dev.to/jagkush/building-an-alerting-pipeline-from-scratch-prometheus-alertmanager-and-the-alert-that-actually-3027) <sub>🆕</sub>
+* [**Python/Go**: _Writing Custom Prometheus Exporters in Python and Go_](https://cubepath.com/docs/Observability%20Stack/custom-prometheus-exporters-development) <sub>🆕</sub>
+* [**Go**: _GoSight: Open-Source Observability Platform_](https://github.com/aaronlmathis/gosight) <sub>🆕 · 📅 2025</sub>
+* [**Go**: _DIY Prometheus Alerting: Rules Files, Alertmanager, and promtool_](https://www.cloudthinker.io/blogs/prometheus-alerting-native-tools) <sub>🆕</sub>
+* [**YAML**: _Quick Start to Run Loki Locally with Docker Compose_](https://grafana.com/docs/loki/latest/get-started/quick-start/quick-start/) <sub>🆕</sub>
+* [**Inglês**: _Distributed Tracing with OpenTelemetry (OTEL) Tutorial_](https://www.youtube.com/watch?v=Oa-zqv-EBpw) <sub>🆕 · 📅 2025</sub>
+* [**Inglês**: _Error Budgets Explained: Balancing Reliability and Feature Velocity_](https://www.youtube.com/watch?v=LkuunG_GBfs) <sub>🆕 · 📅 2025</sub>
+
+##### 13. Cloud Security & Compliance
+
+* [**HCL/Go**: _Vault getting started_](https://developer.hashicorp.com/vault/tutorials/get-started) <sub>🆕 · 📅 2026</sub>
+* [**HCL/Go**: _Secrets management with Vault_](https://developer.hashicorp.com/vault/tutorials/secrets-management) <sub>🆕</sub>
+* [**Conceitos**: _OpenFGA: Fine-Grained Authorization_](https://openfga.dev/docs/getting-started) <sub>🆕</sub>
+* [**Go**: _FGA Tutorial: Fine-Grained Authorization with Zanzibar_](https://github.com/isurucuma/fga-tutorial) <sub>🆕</sub>
+* [**Bash/Linux**: _Linux Server Hardening Guide_](https://github.com/Mahdi-toorani/linux-server-hardening) <sub>🆕</sub>
+* [**Conceitos**: _Red Hat Enterprise Linux Security Hardening_](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/security_hardening/index) <sub>🆕</sub>
+* [**Conceitos**: _VeraCrypt: Disk Encryption with Plausible Deniability_](https://www.veracrypt.fr/en/Home.html) <sub>🆕</sub>
+* [**Go**: _Restic: Secure Backup Program_](https://github.com/restic/restic) <sub>🆕</sub>
+* [**Conceitos**: _5 tips for getting started with Linux server security_](https://www.redhat.com/en/blog/getting-started-linux-security) <sub>🆕</sub>
+
+##### 14. High Availability, Scaling & Disaster Recovery
+
+* [**Go/eBPF**: _Build a Load Balancer from Scratch_](https://www.youtube.com/watch?v=L3_AOFSNKK8) <sub>🆕</sub>
+* [**Java/Spring Boot**: _Build a Load Balancer in Java & Spring Boot_](https://www.youtube.com/watch?v=cbkOFMz2RrY) <sub>🆕</sub>
+* [**Conceitos**: _Plan Your Disaster Recovery Strategy_](https://docs.oracle.com/en/solutions/oci-best-practices/plan-your-disaster-recovery-strategy.html) <sub>🆕 · 📅 2025</sub>
+* [**Conceitos/Bash**: _Configuring and Managing High Availability Clusters (RHEL 9 Docs)_](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_and_managing_high_availability_clusters/assembly_getting-started-with-pacemaker-configuring-and-managing-high-availability-clusters) <sub>🆕 · 📅 2026</sub>
+* [**C/eBPF**: _Build a Load Balancer with XDP/eBPF (iximiuz Labs)_](https://labs.iximiuz.com/tutorials/xdp-load-balancer-700a1d74) <sub>🆕</sub>
+* [**SQL**: _Get MySQL Replication Up and Running_](https://dev.mysql.com/blog-archive/get-mysql-replication-up-and-running-in-5-minutes) <sub>🆕</sub>
+* [**SQL/Bash**: _PostgreSQL Streaming Replication (Warm Standby)_](https://www.postgresql.org/docs/current/warm-standby.html) <sub>🆕</sub>
+* [**Kubernetes**: _HorizontalPodAutoscaler Walkthrough_](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough) <sub>🆕</sub>
+* [**Go**: _etcd-io/raft: Production-Ready Raft Implementation in Go_](https://github.com/etcd-io/raft) <sub>🆕 · 📅 2022</sub>
+* [**Go**: _shaj13/raft: From-Scratch Raft Implementation in Go_](https://github.com/shaj13/raft) <sub>🆕 · 📅 2021</sub>
+* [**Python**: _Mini-Spanner: Build a Globally-Distributed Spanner Clone_](https://builddistributedsystem.com/projects/mini-spanner) <sub>🆕</sub>
+
+##### 15. Platform as a Service (Heroku-like)
 
 * [**Python**: _How to Build Your Own Heroku with Dokku_](https://www.freecodecamp.org/news/how-to-build-your-on-heroku-with-dokku) <sub>🆕 · 📅 2022</sub>
 * [**Conceitos**: _Dokku Has a Free API: Build Your Own Heroku on a $5 VPS_](https://dev.to/0012303/dokku-has-a-free-api-build-your-own-heroku-on-a-5-vps-422o) <sub>🆕 · 📅 2026</sub>
 * [**Conceitos**: _Dokku: The smallest PaaS implementation you've ever seen_](https://dokku.com/) <sub>🆕 · 📅 2026</sub>
-* [**JavaScript**: _CapRover: Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids_](https://github.com/caprover/caprover) <sub>🆕</sub>
+* [**JavaScript**: _CapRover: Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids_](https://github.com/caprover/caprover) <sub>🆕 · 📅 2017</sub>
 * [**PHP**: _Coolify: An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify_](https://github.com/coollabsio/coolify) <sub>🆕 · 📅 2021</sub>
 * [**Ruby**: _Kamal: Deploy web apps anywhere_](https://github.com/basecamp/kamal) <sub>🆕 · 📅 2023</sub>
-* [**Go**: _LoomDeploy: Self-hosted PaaS - deploy any app to your own VPS with Git push, auto SSL, live logs, rollbacks and health monitoring_](https://github.com/youssef509/loomdeploy) <sub>🆕 · 📅 2026</sub>
 * [**Conceitos**: _Heroku Cloud Native Buildpacks overview and tutorials_](https://github.com/heroku/buildpacks) <sub>🆕 · 📅 2024</sub>
 * [**Conceitos**: _Basic Structure of Buildpacks & How to Customize_](https://www.heroku.com/blog/hacking-buildpacks) <sub>🆕 · 📅 2024</sub>
-* [**Conceitos**: _Coolify: The Ultimate Self-Hosted Platform as a Service?_](https://www.youtube.com/watch?v=6IZF_VOlOJM) <sub>🆕 · 📅 2026</sub>
 * [**Conceitos**: _Host your own Vercel_](https://www.youtube.com/watch?v=nCWznQ0HY9c) <sub>🆕 · 📅 2024</sub>
-* [**Conceitos**: _Container Day: Empire - Building a PaaS with Amazon ECS_](https://www.youtube.com/watch?v=K_eDmHFaTdQ) <sub>🆕 · 📅 2016</sub>
 * [**Python**: _Piku: The tiniest PaaS you've ever seen_](https://github.com/piku/piku) <sub>🆕 · 📅 2016</sub>
-* [**Shell**: _piku/webapp-tutorial: piku experiments with build a web app fast_](https://github.com/piku/webapp-tutorial) <sub>🆕 · 📅 2024</sub>
 * [**Conceitos**: _Forge: Building Your Own PaaS with Terraform and Ansible_](https://dev.to/nelsonramos/how-i-built-a-self-hosted-paas-on-aws-from-scratch-no-docker-no-kubernetes-bl8) <sub>🆕 · 📅 2024</sub>
-* [**Conceitos**: _The building blocks of a Cloud Native Buildpack_](https://buildpacks.io/docs/for-buildpack-authors/tutorials/basic-buildpack/02_building-blocks-cnb/) <sub>🆕 · 📅 2024</sub>
 * [**Conceitos**: _Pack CLI Tutorial: Build your own PaaS with buildpacks_](https://buildpacks.io/docs/app-developer-guide/build-an-app/) <sub>🆕 · 📅 2024</sub>
 
-##### 9. Build a SaaS
+##### 16. Serverless & Functions as a Service
+
+* [**Python**: _AWS Lambda Python Runtime Interface Client_](https://github.com/aws/aws-lambda-python-runtime-interface-client) <sub>🆕 · 📅 2020</sub>
+* [**Go**: _OpenFaaS Workshop_](https://github.com/openfaas/workshop) <sub>🆕 · 📅 2017</sub>
+* [**Conceitos**: _Firecracker: Lightweight Virtualization for Serverless_](https://firecracker-microvm.github.io/) <sub>🆕</sub>
+* [**Rust**: _Firecracker Getting Started Guide_](https://github.com/firecracker-microvm/firecracker/blob/main/docs/getting-started.md) <sub>🆕 · 📅 2026</sub>
+* [**Go**: _OpenFaaS: Serverless Functions Made Simple_](https://github.com/openfaas/faas) <sub>🆕 · 📅 2016</sub>
+* [**Go**: _Fission: Serverless Functions for Kubernetes_](https://github.com/fission/fission) <sub>🆕 · 📅 2016</sub>
+* [**TypeScript**: _Serverless Framework_](https://github.com/serverless/serverless) <sub>🆕 · 📅 2015</sub>
+* [**JavaScript**: _Cloudflare Workers Documentation_](https://developers.cloudflare.com/workers/) <sub>🆕</sub>
+* [**Rust**: _WasmEdge Runtime Documentation_](https://wasmedge.org/docs/) <sub>🆕</sub>
+* [**Go**: _Knative Serving Documentation_](https://knative.dev/docs/serving/) <sub>🆕 · 📅 2018</sub>
+* [**JavaScript**: _A WebAssembly interpreter (Part 1)_](https://wasmgroundup.com/blog/wasm-vm-part-1) <sub>🆕 · 📅 2025</sub>
+* [**Bash**: _Custom AWS Lambda runtime: provide your own bootstrap_](https://gist.github.com/mryhryki/8e43c52ddfc13307bbd89788e95f799e) <sub>🆕 · 📅 2021</sub>
+
+##### 17. Build a SaaS
 
 * [**Go**: _LastSaaS: The last SaaS boilerplate you'll ever need_](https://github.com/jonradoff/lastsaas) <sub>🆕 · 📅 2026</sub>
-* [**TypeScript**: _SaaS App Full Course 2026 | Launch Your SaaS in Under 7 Days with Next JS, Supabase & Payments_](https://www.youtube.com/watch?v=XUkNR-JfHwo) <sub>🆕 · 📅 2025</sub>
 * [**Node.js**: _Set up subscriptions with Stripe Billing (subscription-use-cases)_](https://github.com/stripe-samples/subscription-use-cases) <sub>🆕 · 📅 2026</sub>
 * [**Node.js**: _Stripe for SaaS Full Course_](https://github.com/fireship-io/stripe-for-saas) <sub>🆕 · 📅 2024</sub>
 * [**TypeScript**: _Stripe Subscriptions with Next.js - Full Course 2024_](https://www.youtube.com/watch?v=R9PwoQwVpPQ) <sub>🆕 · 📅 2024</sub>
-* [**PHP**: _Stripe in SaaS (multi-tenant, multiple database) — Laravel + React_](https://github.com/tarikulwebx/stripe-integration-in-multi-tenancy) <sub>🆕 · 📅 2025</sub>
 * [**TypeScript**: _How to Build a SaaS in 2026 | Masterclass (B2B, Multi Tenant, Next.js, Roles / Permissions, Billing)_](https://www.youtube.com/watch?v=Dl8ad3aSFoE) <sub>🆕 · 📅 2026</sub>
 * [**Python**: _Python Tutorial: Build a SaaS App with Django, Stripe, Neon PostgreSQL, TailwindCSS, GitHub Actions_](https://www.youtube.com/watch?v=WbNNESIxJnY) <sub>🆕 · 📅 2024</sub>
 * [**Conceitos**: _Multi-tenancy architecture | The Backend Engineering Show_](https://www.youtube.com/watch?v=IhrBgoVIoT4) <sub>🆕 · 📅 2022</sub>
-* [**TypeScript**: _Build SaaS with paid subscriptions - using Nile and Stripe_](https://www.thenile.dev/docs/integrations/stripe.md) <sub>🆕</sub>
+* [**PostgreSQL**: _Multi-Tenant SaaS Architecture with Postgres RLS: A Working Pattern_](https://makerkit.dev/blog/tutorials/multi-tenant-saas-architecture) <sub>🆕 · 📅 2026</sub>
+* [**TypeScript**: _Build SaaS with paid subscriptions - using Nile and Stripe_](https://www.thenile.dev/docs/integrations/stripe.md) <sub>🆕 · 📅 2024</sub>
 * [**Conceitos**: _Assinaturas — Visão geral (Subscriptions)_](https://www.mercadopago.com.br/developers/pt/docs/subscriptions/overview) <sub>🆕</sub>
+* [**TypeScript**: _How to Build a Complete SaaS Payment Flow with Stripe, Webhooks, and Email Notifications_](https://www.freecodecamp.org/news/saas-payment-flow-stripe-webhooks-email/) <sub>🆕 · 📅 2026</sub>
 * [**TypeScript**: _Stripe Subscriptions in a SaaS (Step-by-Step With Code)_](https://dev.to/mdhemalakhand1999/stripe-subscriptions-in-a-saas-step-by-step-with-code-1lkd) <sub>🆕 · 📅 2026</sub>
 
-##### 10. SaaS Models & Architecture
+##### 18. Running a SaaS in Brazil: Payments, Invoicing & LGPD
+
+* [**Português**: _Pix - Banco Central do Brasil_](https://www.bcb.gov.br/estabilidadefinanceira/pix) <sub>🆕 · 📅 2026</sub>
+* [**OpenAPI/YAML**: _API Pix (bacen/pix-api) - OpenAPI Specification_](https://github.com/bacen/pix-api) <sub>🆕 · 📅 2026</sub>
+* [**Português**: _Pix Automático: recorrência de SaaS resolvida no Brasil_](https://nexforce.ai/blog/pix-automatico-recorrencia-saas) <sub>🆕 · 📅 2026</sub>
+* [**Português**: _Asaas - API de pagamentos (Pix, Boleto, Cartão, Split, Webhooks)_](https://docs.asaas.com/) <sub>🆕 · 📅 2026</sub>
+* [**Português**: _Criando uma assinatura (Asaas) - Cobranças recorrentes via API_](https://docs.asaas.com/docs/criando-uma-assinatura) <sub>🆕</sub>
+* [**Inglês**: _Stripe Pix payments (accept a Pix payment)_](https://docs.stripe.com/payments/pix) <sub>🆕 · 📅 2026</sub>
+* [**Português/Inglês**: _OpenPix - API Pix para recebimentos e transferencias_](https://developers.openpix.com.br/en/api) <sub>🆕</sub>
+* [**TypeScript/Node.js**: _open-pix-br/open-pix - Toolkit de homologacao Pix Direct Participant_](https://github.com/open-pix-br/open-pix) <sub>🆕 · 📅 2026</sub>
+* [**Português**: _NFS-e Nacional - API de emissão via webservice (Focus NFe)_](https://doc.focusnfe.com.br/reference/nfse-nacional) <sub>🆕</sub>
+* [**PHP**: _nfse-php - SDK PHP NFS-e Nacional (nfse-nacional)_](https://github.com/nfse-nacional/nfse-php) <sub>🆕 · 📅 2025</sub>
+* [**Português**: _Notas fiscais - Nota Gateway API (eNotas)_](https://docs.notagateway.com.br/docs/sobre-a-api) <sub>🆕</sub>
+* [**Markdown**: _Guia LGPD para devs - luizsilvadextra/guia-lgpd-para-devs_](https://github.com/luizsilvadextra/guia-lgpd-para-devs) <sub>🆕 · 📅 2019</sub>
+
+##### 19. SaaS Models & Architecture
 
 * [**Conceitos**: _General design principles - SaaS Lens (AWS Well-Architected Framework)_](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/general-design-principles.html) <sub>🆕 · 📅 2026</sub>
 * [**TypeScript**: _Multi-Tenant SaaS Architecture in 3 Simple Steps_](https://www.youtube.com/watch?v=bFLGwVyIotA) <sub>🆕 · 📅 2025</sub>
@@ -278,7 +403,6 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 * [**Conceitos**: _Architect multitenant solutions on Azure (Azure multitenant guide)_](https://learn.microsoft.com/en-us/azure/architecture/guide/multitenant/overview) <sub>🆕 · 📅 2025</sub>
 * [**Conceitos**: _Foundations of SaaS (Microsoft Learn - Training)_](https://learn.microsoft.com/en-us/training/saas/saas-foundations/) <sub>🆕 · 📅 2025</sub>
 * [**Conceitos**: _How to Read a Service-Level Agreement (SLA)_](https://learn.microsoft.com/en-us/azure/reliability/concept-service-level-agreements) <sub>🆕 · 📅 2026</sub>
-* [**Conceitos**: _Building Multi-Tenant SaaS Architectures [Book]_](https://www.oreilly.com/library/view/building-multi-tenant-saas/9781098140632) <sub>🆕 · 📅 2024</sub>
 * [**Conceitos**: _IaaS vs. PaaS vs. SaaS_](https://www.redhat.com/en/topics/cloud-computing/iaas-vs-paas-vs-saas) <sub>🆕 · 📅 2026</sub>
 * [**Conceitos**: _Noisy Neighbor Antipattern - Azure Architecture Center_](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/noisy-neighbor/noisy-neighbor) <sub>🆕 · 📅 2025</sub>
 * [**Conceitos**: _SaaS Metrics: A Complete Guide to Tracking Business Growth_](https://stripe.com/ie/resources/more/essential-saas-metrics) <sub>🆕 · 📅 2023</sub>
@@ -529,6 +653,16 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 * [**Python**: _Building A Python-Based Search Engine_](https://www.youtube.com/watch?v=cY7pE7vX6MU) [video] <sub>📅 2012</sub>
 * [**Python**: _Making text search learn from feedback_](https://medium.com/filament-ai/making-text-search-learn-from-feedback-4fe210fd87b0)
 * [**Python**: _Finding Important Words in Text Using TF-IDF_](https://stevenloria.com/tf-idf/) <sub>📅 2013</sub>
+* [**Go**: _《自己动手开发互联网搜索引擎》_](https://pphc.lvwenhan.com/tech-epic/2023/diy-search-engine) <sub>🆕 · 📅 2023</sub>
+* [**Python**: _Build Your Own Search Engine_](https://github.com/Osamaali313/build-your-own-search-engine) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Build your own search engine from scratch_](https://github.com/mohosy/search-engine-from-scratch) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _BM25 Search Engine_](https://github.com/MohammadHossinzehi/2026-07-05-am-bm25-search-engine) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Build a Search Engine from Scratch_](https://dev.to/mshojaei77/build-a-search-engine-from-scratch-1jf) <sub>🆕 · 📅 2025</sub>
+* [**Rust**: _tantivy - Rust_](https://docs.rs/tantivy) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Building a mini search engine #3: The inverted index_](https://hoangducviet.com/posts/inverted-index) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Building a Vector Search Engine from Scratch in Python (Flat, IVF, HNSW)_](https://dev.to/hajirufai/building-a-vector-search-engine-from-scratch-in-python-flat-ivf-hnsw-1kb9) <sub>🆕 · 📅 2026</sub>
+* [**C++**: _hnsw-vector-search_](https://github.com/jashkaransingh/hnsw-vector-search) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Learn RAG From Scratch - Python AI Tutorial from a LangChain Engineer_](https://www.youtube.com/watch?v=sVcwVQRHIc8) <sub>🆕 · 📅 2024</sub>
 
 #### Build your own `Shell`
 

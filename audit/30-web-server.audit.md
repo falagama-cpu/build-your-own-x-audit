@@ -1,6 +1,6 @@
 # Auditoria: Web Server
 
-Total: 11 | falhou: 0 | nao_verificado: 2 | parcial: 2 | verificado: 7
+Total: 11 | verificado: 7 | parcial: 2 | nao_verificado: 2 | falhou: 0
 
 ## 1. **C#**: _Writing a Web Server from Scratch_
 - URL: https://www.codeproject.com/Articles/859108/Writing-a-Web-Server-from-Scratch
