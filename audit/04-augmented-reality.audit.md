@@ -1,6 +1,6 @@
 # Auditoria: Augmented Reality
 
-Total: 6 | parcial: 4 | falhou: 0 | verificado: 2 | nao_verificado: 0
+Total: 6 | falhou: 0 | nao_verificado: 0 | verificado: 2 | parcial: 4
 
 ## 1. **C#**: _How To: Augmented Reality App Tutorial for Beginners with Vuforia and Unity 3D_
 - URL: https://www.youtube.com/watch?v=uXNjNcqW4kY

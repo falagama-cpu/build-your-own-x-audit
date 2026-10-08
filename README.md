@@ -2,7 +2,7 @@
 
 ## Build your own &lt;insert-technology-here&gt;
 
-> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-08** · 31 audited sections · 579 tutorials · 14 links replaced. Per-section reports: [`audit/`](audit/).
+> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-08** · 31 audited sections · 612 tutorials · 14 links replaced. Per-section reports: [`audit/`](audit/).
 >
 > Legend: 📅 year of publication or last update · 🔁 original link was dead, replaced · ↪ moved, URL updated · 🏷 suggested category · 🆕 added by this edition
 
@@ -379,7 +379,21 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 * [**TypeScript**: _How to Build a Complete SaaS Payment Flow with Stripe, Webhooks, and Email Notifications_](https://www.freecodecamp.org/news/saas-payment-flow-stripe-webhooks-email/) <sub>🆕 · 📅 2026</sub>
 * [**TypeScript**: _Stripe Subscriptions in a SaaS (Step-by-Step With Code)_](https://dev.to/mdhemalakhand1999/stripe-subscriptions-in-a-saas-step-by-step-with-code-1lkd) <sub>🆕 · 📅 2026</sub>
 
-##### 18. Running a SaaS in Brazil: Payments, Invoicing & LGPD
+##### 18. Identity, SSO & Transactional Email for SaaS
+
+* [**Conceitos**: _OAuth 2.0 Simplified (OAuth2Simplified.com)_](https://www.oauth.com/) <sub>🆕</sub>
+* [**Conceitos**: _How to Set Up SPF, DKIM, and DMARC for Email Authentication_](https://www.samnet.dev/learn/networking/spf-dkim-dmarc-guide) <sub>🆕 · 📅 2026</sub>
+* [**Java**: _Server Administration Guide_](https://www.keycloak.org/docs/latest/server_admin/) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Single sign-on SAML protocol - Microsoft identity platform_](https://learn.microsoft.com/en-us/entra/identity-platform/single-sign-on-saml-protocol) <sub>🆕</sub>
+* [**Conceitos**: _SAML authentication explained: how SSO works_](https://duo.com/learn/saml-authentication) <sub>🆕 · 📅 2026</sub>
+* [**C#/.NET**: _Build your own OAuth 2.0 Server and OpenID Connect Provider in ASP.NET Core 6.0_](https://dev.to/mohammedahmed/build-your-own-oauth-20-server-and-openid-connect-provider-in-aspnet-core-60-1g1m) <sub>🆕 · 📅 2022</sub>
+* [**Go**: _Run your own OAuth2 Server (Ory Hydra)_](https://www.ory.com/blog/run-oauth2-server-open-source-api-security) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _Implementing SPF, DKIM, and DMARC for Reliable Email Delivery_](https://www.mailgun.com/blog/dev-life/how-to-setup-email-authentication) <sub>🆕 · 📅 2025</sub>
+* [**PHP**: _oauth2-openid-connect-server_](https://github.com/steverhoades/oauth2-openid-connect-server) <sub>🆕 · 📅 2016</sub>
+* [**Conceitos**: _Session Management Cheat Sheet_](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _Email Authentication Mechanisms: DMARC, SPF and DKIM (NIST TN 1945)_](https://www.nist.gov/publications/email-authentication-mechanisms-dmarc-spf-and-dkim) <sub>🆕 · 📅 2017</sub>
+
+##### 19. Running a SaaS in Brazil: Payments, Invoicing & LGPD
 
 * [**Português**: _Pix - Banco Central do Brasil_](https://www.bcb.gov.br/estabilidadefinanceira/pix) <sub>🆕 · 📅 2026</sub>
 * [**OpenAPI/YAML**: _API Pix (bacen/pix-api) - OpenAPI Specification_](https://github.com/bacen/pix-api) <sub>🆕 · 📅 2026</sub>
@@ -394,7 +408,7 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 * [**Português**: _Notas fiscais - Nota Gateway API (eNotas)_](https://docs.notagateway.com.br/docs/sobre-a-api) <sub>🆕</sub>
 * [**Markdown**: _Guia LGPD para devs - luizsilvadextra/guia-lgpd-para-devs_](https://github.com/luizsilvadextra/guia-lgpd-para-devs) <sub>🆕 · 📅 2019</sub>
 
-##### 19. SaaS Models & Architecture
+##### 20. SaaS Models & Architecture
 
 * [**Conceitos**: _General design principles - SaaS Lens (AWS Well-Architected Framework)_](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/general-design-principles.html) <sub>🆕 · 📅 2026</sub>
 * [**TypeScript**: _Multi-Tenant SaaS Architecture in 3 Simple Steps_](https://www.youtube.com/watch?v=bFLGwVyIotA) <sub>🆕 · 📅 2025</sub>
@@ -586,6 +600,18 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 * [**JavaScript**: _How Physics Engines Work_](http://buildnewgames.com/gamephysics/) <sub>📅 2012</sub>
 * [**JavaScript**: _Broad Phase Collision Detection Using Spatial Partitioning_](http://buildnewgames.com/broad-phase-collision-detection/) <sub>📅 2012</sub>
 * [**JavaScript**: _Build a simple 2D physics engine for JavaScript games_](https://developer.ibm.com/tutorials/wa-build2dphysicsengine/?mhsrc=ibmsearch_a&mhq=2dphysic) <sub>📅 2012</sub>
+* [**C++**: _Impulse Engine_](https://github.com/RandyGaul/ImpulseEngine) <sub>🆕 · 📅 2019</sub>
+* [**C++**: _Game Physics: Collision Detection – GJK_](https://allenchou.net/2013/12/game-physics-collision-detection-gjk) <sub>🆕 · 📅 2013</sub>
+* [**C++**: _Game Physics: Contact Generation – EPA_](https://allenchou.net/2013/12/game-physics-contact-generation-epa) <sub>🆕 · 📅 2013</sub>
+* [**C++**: _Game Physics: Constraints & Sequential Impulse_](https://allenchou.net/2013/12/game-physics-constraints-sequential-impulse) <sub>🆕 · 📅 2013</sub>
+* [**Rust**: _2D Physics Engine from Scratch in Rust_](https://github.com/im4vk/PhysicsEngine) <sub>🆕 · 📅 2025</sub>
+* [**WebGPU**: _webphysics: A WebGPU rigid-body/soft-body physics engine prototype_](https://github.com/jure/webphysics) <sub>🆕 · 📅 2026</sub>
+* [**Rust**: _GPU Physics Engine_](https://github.com/MarcVivas/gpu-physics-engine) <sub>🆕 · 📅 2025</sub>
+* [**JavaScript**: _Build a Physics Engine from Scratch_](https://www.mysimulator.uk/content/tutorials/physics-engine.html) <sub>🆕 · 📅 2025</sub>
+* [**C++**: _Cloth Simulation_](https://github.com/johnBuffer/ClothSimulation) <sub>🆕 · 📅 2024</sub>
+* [**C++**: _XPBD Softbody Simulator_](https://github.com/frederic-hallein/xpbd-softbody-simulator) <sub>🆕 · 📅 2026</sub>
+* [**JavaScript**: _THREE-XPBD_](https://github.com/markeasting/THREE-XPBD) <sub>🆕 · 📅 2025</sub>
+* [**C**: _Physics Lesson 12 — Impulse-Based Resolution_](https://github.com/Nebulavenus/forge-gpu/tree/b47431eeb889ff360a73e47ed9a1b1b78c1a5d12/lessons/physics/12-impulse-based-resolution) <sub>🆕 · 📅 2026</sub>
 
 #### Build your own `Processor`
 
@@ -704,6 +730,16 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 
 * [**Rust**: _Let's build a browser engine_](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html) <sub>📅 2014</sub>
 * [**Python**: _Browser Engineering_](https://browser.engineering) <sub>📅 2024</sub>
+* [**Rust**: _Robin - build a web browser engine from scratch in Rust_](https://github.com/addyosmani/rust-browser) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Browser Engineering (book source code)_](https://github.com/browserengineering/book) <sub>🆕 · 📅 2026</sub>
+* [**Rust**: _lucid-softworks/browser_](https://github.com/lucid-softworks/browser) <sub>🆕 · 📅 2026</sub>
+* [**JavaScript**: _I Built a Web Browser from Scratch in 42 Days — No Libraries, Just Node.js_](https://dev.to/nitinkumaryadav1307/i-built-a-web-browser-from-scratch-in-42-days-no-libraries-just-nodejs-416h) <sub>🆕 · 📅 2024</sub>
+* [**Conceitos**: _How a Browser Works: A Beginner-Friendly Guide to Browser Internals_](https://dev.to/rajat_yadav_/how-a-browser-works-a-beginner-friendly-guide-to-browser-internals-3knp) <sub>🆕 · 📅 2026</sub>
+* [**Rust**: _Aurora_](https://github.com/JohannaWeb/Aurora) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Building a Browser from Scratch_](https://kevinliu.me/posts/building-a-browser) <sub>🆕 · 📅 2024</sub>
+* [**Rust**: _Serval - An Experimental Web Browser Engine written in Rust_](https://github.com/hayatoito/serval) <sub>🆕 · 📅 2019</sub>
+* [**Rust**: _manuk - towards a faster, leaner web browser_](https://github.com/patrickbdevaney/manuk) <sub>🆕 · 📅 2026</sub>
+* [**Rust**: _Experience Report: Developing the Servo Web Browser Engine using Rust_](https://arxiv.org/abs/1505.07383) <sub>🆕 · 📅 2015</sub>
 
 #### Build your own `Web Server`
 

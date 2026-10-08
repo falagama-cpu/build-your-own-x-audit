@@ -1,6 +1,6 @@
 # Auditoria: Git
 
-Total: 7 | verificado: 7 | nao_verificado: 0 | parcial: 0 | falhou: 0
+Total: 7 | verificado: 7 | parcial: 0 | falhou: 0 | nao_verificado: 0
 
 ## 1. **Haskell**: _Reimplementing "git clone" in Haskell from the bottom up_
 - URL: http://stefan.saasen.me/articles/git-clone-in-haskell-from-the-bottom-up/

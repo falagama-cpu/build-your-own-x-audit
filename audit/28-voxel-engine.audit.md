@@ -1,6 +1,6 @@
 # Auditoria: Voxel Engine
 
-Total: 1 | parcial: 0 | verificado: 1 | nao_verificado: 0 | falhou: 0
+Total: 1 | falhou: 0 | verificado: 1 | parcial: 0 | nao_verificado: 0
 
 ## 1. **C++**: _Let's Make a Voxel Engine_
 - URL: https://sites.google.com/site/letsmakeavoxelengine/home
