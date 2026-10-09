@@ -1,6 +1,6 @@
 # Auditoria: Command-Line Tool
 
-Total: 9 | verificado: 4 | parcial: 5 | nao_verificado: 0 | falhou: 0
+Total: 9 | falhou: 0 | verificado: 4 | parcial: 5 | nao_verificado: 0
 
 ## 1. **Go**: _Visualize your local git contributions with Go_
 - URL: https://flaviocopes.com/go-git-contributions/

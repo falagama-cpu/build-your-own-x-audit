@@ -1,6 +1,6 @@
 # Auditoria: Front-end Framework / Library
 
-Total: 14 | nao_verificado: 0 | parcial: 3 | falhou: 0 | verificado: 11
+Total: 14 | parcial: 3 | nao_verificado: 0 | falhou: 0 | verificado: 11
 
 ## 1. **JavaScript**: _WTF is JSX (Let's Build a JSX Renderer)_
 - URL: https://jasonformat.com/wtf-is-jsx/

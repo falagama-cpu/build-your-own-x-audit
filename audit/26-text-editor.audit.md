@@ -1,6 +1,6 @@
 # Auditoria: Text Editor
 
-Total: 6 | nao_verificado: 0 | parcial: 0 | verificado: 6 | falhou: 0
+Total: 6 | parcial: 0 | nao_verificado: 0 | verificado: 6 | falhou: 0
 
 ## 1. **C**: _Build Your Own Text Editor_
 - URL: https://viewsourcecode.org/snaptoken/kilo/

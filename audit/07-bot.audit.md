@@ -1,6 +1,6 @@
 # Auditoria: Bot
 
-Total: 15 | verificado: 0 | nao_verificado: 1 | falhou: 0 | parcial: 14
+Total: 15 | nao_verificado: 1 | falhou: 0 | parcial: 14 | verificado: 0
 
 ## 1. **Haskell**: _Roll your own IRC bot_
 - URL: https://wiki.haskell.org/Roll_your_own_IRC_bot

@@ -2,7 +2,7 @@
 
 ## Build your own &lt;insert-technology-here&gt;
 
-> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-08** · 31 audited sections · 612 tutorials · 14 links replaced. Per-section reports: [`audit/`](audit/).
+> **Audited & maintained edition.** The [original list](https://github.com/codecrafters-io/build-your-own-x) has not merged a pull request in months and many links have rotted. This edition checks every tutorial: live/dead link (with Wayback or an equivalent replacement for dead ones), publication / last-update date with its source, and category. Last audit: **2026-10-08** · 31 audited sections · 685 tutorials · 14 links replaced. Per-section reports: [`audit/`](audit/).
 >
 > Legend: 📅 year of publication or last update · 🔁 original link was dead, replaced · ↪ moved, URL updated · 🏷 suggested category · 🆕 added by this edition
 
@@ -49,6 +49,18 @@ It's a great way to learn.
 
 #### Build your own `Distributed Systems`
 * [**Java**: _Building Your Own Kafka-like System From Scratch: A Step-by-Step Guide_](https://github.com/buildthingsuseful/build-your-own-kafka) <sub>📅 2025</sub>
+* [**Go**: _Implementing Raft: Part 1 - Elections_](https://eli.thegreenplace.net/2020/implementing-raft-part-1-elections/) <sub>🆕 · 📅 2020</sub>
+* [**Go**: _6.5840 Lab 3: Raft_](https://pdos.csail.mit.edu/6.5840/labs/lab-raft1.html) <sub>🆕 · 📅 2026</sub>
+* [**Conceitos**: _MIT 6.5840 Distributed Systems_](https://www.youtube.com/playlist?list=PLM8x2NV47dws69cV3bl1o3Dm2kWzSMWBx) <sub>🆕 · 📅 2020</sub>
+* [**Go**: _Gossip Glomers_](https://www.fly.io/dist-sys) <sub>🆕 · 📅 2023</sub>
+* [**Go**: _Implementing a Distributed Consensus Protocol From Scratch: Raft in Go_](https://blog.lbenicio.dev/post/2019/01/01/implementing-a-distributed-consensus-protocol-from-scratch-raft-with-leader-election-log-replication-membership-changes-and-cluster-reconfiguration-in-go/) <sub>🆕 · 📅 2019</sub>
+* [**Go**: _RaftLab_](https://github.com/soumyasurana/RaftLab) <sub>🆕 · 📅 2025</sub>
+* [**Python**: _RaftKV — Distributed Key-Value Store with Raft Consensus_](https://github.com/hajirufai/raftkv) <sub>🆕 · 📅 2026</sub>
+* [**Rust**: _rustkvd — Production-grade Distributed Key-Value Store in Rust_](https://github.com/vignesh2027/rustkvd) <sub>🆕 · 📅 2026</sub>
+* [**Go**: _Consistent Hashing_](https://github.com/soyvural/consistent-hashing) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _How to Build Consistent Hashing in Python to Stop Cache Stampedes_](https://sxz.io/consistent-hashing-python-tutorial/) <sub>🆕 · 📅 2023</sub>
+* [**Go**: _Shreder: Building a Distributed Cache System_](https://isaacbyron.dev/projects/02-distributed-key-value-store/overview/) <sub>🆕 · 📅 2025</sub>
+* [**Python**: _Chord DHT: A Distributed Key-Value Store_](https://github.com/andreasstamos/chordify) <sub>🆕 · 📅 2025</sub>
 
 #### Build your own `3D Renderer`
 
@@ -541,6 +553,17 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 #### Build your own `Memory Allocator`
 
 * [**C**: _Malloc is not magic -- Implementing your own memory allocator_](https://medium.com/p/e0354e914402) <sub>📅 2025</sub>
+* [**C**: _Memory Allocators 101 - Write a simple memory allocator_](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory) <sub>🆕 · 📅 2016</sub>
+* [**C**: _How I Built `malloc` and `free` in C From Scratch_](https://dev.to/farhadrahimiklie/how-i-built-malloc-and-free-in-c-from-scratch-3had) <sub>🆕 · 📅 2026</sub>
+* [**C**: _Demystifying malloc: Build Your Own Memory Allocator in C_](https://dev.to/_0xsegfault/demystifying-malloc-build-your-own-memory-allocator-in-c-1ao9) <sub>🆕 · 📅 2025</sub>
+* [**C**: _My-own-malloc-and-free-in-c_](https://github.com/milindaShehan/My-own-malloc-and-free-in-c) <sub>🆕 · 📅 2023</sub>
+* [**C**: _Memory Allocator in C_](https://github.com/implement-from-scratch/memory-allocator-c) <sub>🆕 · 📅 2026</sub>
+* [**C**: _Implementing Malloc: First-fit Free List_](https://embeddedartistry.com/blog/2017/02/15/implementing-malloc-first-fit-free-list/) <sub>🆕 · 📅 2022</sub>
+* [**C**: _Writing My Own Malloc in C_](https://www.youtube.com/watch?v=sZ8GJ1TiMdk) <sub>🆕 · 📅 2021</sub>
+* [**C**: _tsoding/arena: Arena Allocator_](https://github.com/tsoding/arena) <sub>🆕 · 📅 2022</sub>
+* [**Rust**: _rust-buddy: Buddy Memory Allocation_](https://github.com/NVSL/rust-buddy) <sub>🆕 · 📅 2020</sub>
+* [**C**: _userland_slab: Small implementation in C of a slab allocator in user space_](https://github.com/thibault-reigner/userland_slab) <sub>🆕 · 📅 2024</sub>
+* [**Rust**: _dumpster: A cycle-tracking garbage collector for Rust_](https://github.com/claytonwramsey/dumpster) <sub>🆕 · 📅 2023</sub>
 
 #### Build your own `Network Stack`
 
@@ -568,6 +591,18 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 * [**Python**: _An Introduction to Convolutional Neural Networks_](https://victorzhou.com/blog/intro-to-cnns-part-1/) <sub>📅 2019</sub>
 * [**Python**: _Neural Networks: Zero to Hero_](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 * [**Python**: _SlowTorch: Implementation of PyTorch from the ground up in 100% pure Python_](https://github.com/xames3/slowtorch) <sub>📅 2025</sub>
+* [**Python**: _Build and train a small neural network with NumPy (MNIST)_](https://github.com/numpy/numpy-tutorials/blob/main/content/tutorial-deep-learning-on-mnist.md) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _micrograd_](https://github.com/karpathy/micrograd) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _miniTORCH (minitorch)_](https://github.com/minitorch/minitorch) <sub>🆕 · 📅 2024</sub>
+* [**Python**: _nanoGPT_](https://github.com/karpathy/nanoGPT) <sub>🆕 · 📅 2025</sub>
+* [**Python**: _Implement a Neural Network from Scratch (without nn.Module)_](https://github.com/geyuxu/nn-from-scratch) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Dive into Deep Learning_](https://d2l.ai/) <sub>🆕 · 📅 2024</sub>
+* [**Python**: _A Gentle Introduction to torch.autograd_](https://docs.pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html) <sub>🆕 · 📅 2025</sub>
+* [**Python**: _Neural Networks_](https://docs.pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Build the Neural Network_](https://docs.pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Build a Neural Network from Scratch with Python and NumPy_](https://codezup.com/build-neural-network-scratch-python-numpy) <sub>🆕 · 📅 2026</sub>
+* [**Rust**: _Tutorial: How to Build a Simple Neural Network in Rust_](https://hietalajulius.medium.com/tutorial-how-to-build-a-simple-neural-network-in-rust-1c63fb7439f6) <sub>🆕 · 📅 2023</sub>
+* [**Python**: _Neural Networks From Scratch_](https://victorzhou.com/series/neural-networks-from-scratch) <sub>🆕 · 📅 2026</sub>
 
 #### Build your own `Operating System`
 
@@ -616,6 +651,18 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 #### Build your own `Processor`
 
 * [**Verilog**: _From Blinker to RISC-V_](https://github.com/BrunoLevy/learn-fpga/tree/master/FemtoRV/TUTORIALS/FROM_BLINKER_TO_RISCV) <sub>📅 2025</sub>
+* [**Conceitos**: _Build an 8-bit computer from scratch_](https://eater.net/8bit) <sub>🆕 · 📅 2017</sub>
+* [**Conceitos**: _8-bit CPU control logic: Part 1_](https://www.youtube.com/watch?v=dXdoim96v5A) <sub>🆕 · 📅 2017</sub>
+* [**Conceitos**: _Building an 8-bit breadboard computer!_](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU) <sub>🆕 · 📅 2017</sub>
+* [**Verilog**: _FemtoRV RISC-V CPU on Gatemate E1 FPGA_](https://github.com/fm4dd/gatemate-riscv) <sub>🆕 · 📅 2023</sub>
+* [**Verilog**: _Building an 8-Bit CPU on an FPGA_](https://austinmorlan.com/posts/8bit_breadboard_fpga/) <sub>🆕 · 📅 2021</sub>
+* [**Verilog**: _Build an 8-bit CPU from Scratch_](https://ecrionix.org/digital-electronics/8-bit-cpu/) <sub>🆕 · 📅 2024</sub>
+* [**SystemVerilog**: _Minimum RISC-V System From Scratch (mriscv)_](https://determinant.github.io/mriscv/) <sub>🆕 · 📅 2021</sub>
+* [**SystemVerilog**: _HaDes-V: Pipelined 32-bit RISC-V Processor (OER)_](https://github.com/hajirabazaz/HaDes-V) <sub>🆕 · 📅 2024</sub>
+* [**Verilog**: _basic_RV32s: RISC-V CPU design guideline_](https://github.com/RISC-KC/basic_rv32s) <sub>🆕 · 📅 2024</sub>
+* [**Verilog**: _Four Processors From Scratch — SCP16, x86lite32, armlite32, gpulite32_](https://github.com/Prashant051998/cpu-gpu-from-scratch) <sub>🆕 · 📅 2026</sub>
+* [**SystemVerilog**: _RV32I CPU Design: 5-stage pipeline, forwarding, hazard detection_](https://github.com/JuanCantu1/CPU-Design) <sub>🆕 · 📅 2025</sub>
+* [**Conceitos**: _Designing RISC-V CPU from scratch - Part 2: Specifications and Architecture_](https://chipmunklogic.com/digital-logic-design/designing-pequeno-risc-v-cpu-from-scratch-part-2-specifications-and-architecture/) <sub>🆕 · 📅 2023</sub>
 
 #### Build your own `Programming Language`
 
@@ -721,10 +768,34 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 
 * [**Python**: _Developing a License Plate Recognition System with Machine Learning in Python_](https://medium.com/devcenter/developing-a-license-plate-recognition-system-with-machine-learning-in-python-787833569ccd) <sub>📅 2018</sub>
 * [**Python**: _Building a Facial Recognition Pipeline with Deep Learning in Tensorflow_](https://hackernoon.com/building-a-facial-recognition-pipeline-with-deep-learning-in-tensorflow-66e7645015b8) <sub>📅 2017</sub>
+* [**Python**: _Building a CNN from Scratch using Numpy_](https://readmedium.com/build-a-convolutional-neural-network-from-scratch-using-numpy-139cbbf3c45e) <sub>🆕 · 📅 2025</sub>
+* [**Python**: _Convolutional Neural Networks from scratch_](https://www.tkruer.com/notes/conv-nn-scratch) <sub>🆕 · 📅 2023</sub>
+* [**Python**: _YOLOv1 from Scratch_](https://www.youtube.com/watch?v=n9_XyCGr-MI) <sub>🆕 · 📅 2020</sub>
+* [**Python**: _Building Tiny YOLO from scratch using PyTorch_](https://blog.flaport.net/yolo-part-1.html) <sub>🆕 · 📅 2020</sub>
+* [**Python**: _Object Detection — YOLO from Scratch_](https://github.com/rohitg00/ai-engineering-from-scratch/blob/95292efd/phases/04-computer-vision/06-object-detection-yolo/docs/en.md) <sub>🆕 · 📅 2026</sub>
+* [**Python**: _Building a Vision Transformer from Scratch in PyTorch_](https://www.geeksforgeeks.org/deep-learning/building-a-vision-transformer-from-scratch-in-pytorch/) <sub>🆕 · 📅 2023</sub>
+* [**Python**: _Vision Transformer (ViT) Tutorial – Part 2: Implementing ViT from Scratch in PyTorch_](https://hackmd.io/@husseinsheikho/vit-2) <sub>🆕 · 📅 2022</sub>
+* [**Conceitos**: _Tutorial 15: Vision Transformers_](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial15/Vision_Transformer.html) <sub>🆕 · 📅 2021</sub>
+* [**Python**: _U-Net Full Implementation from Scratch in PyTorch for Brain Tumor Segmentation_](https://github.com/franciszekparma/U-Net-PyTorch) <sub>🆕 · 📅 2025</sub>
+* [**Python**: _U-Net from Scratch_](https://github.com/ComputerFish/U-Net-from-scratch) <sub>🆕 · 📅 2025</sub>
+* [**Python**: _PyTorch Image Segmentation Tutorial with U-NET: everything from scratch baby_](https://www.youtube.com/watch?v=IHq1t7NxS8k) <sub>🆕 · 📅 2021</sub>
+* [**Python**: _Your First OCR Project with Tesseract and Python_](https://pyimagesearch.com/2021/08/23/your-first-ocr-project-with-tesseract-and-python/) <sub>🆕 · 📅 2021</sub>
 
 #### Build your own `Voxel Engine`
 
 * [**C++**: _Let's Make a Voxel Engine_](https://sites.google.com/site/letsmakeavoxelengine/home) <sub>📅 2020</sub>
+* [**C++**: _A Minecraft clone written from scratch in C++17 / OpenGL 3.3_](https://github.com/Danishk2445/minecraft-cpp) <sub>🆕 · 📅 2026</sub>
+* [**Rust**: _block-mesh_](https://docs.rs/block-mesh/latest/block_mesh) <sub>🆕 · 📅 2022</sub>
+* [**C++ (OpenGL)**: _[OpenGL C++] 3D Voxel Engine Tutorial_](https://www.youtube.com/playlist?list=PLQ7CpbxNS-_YP1WhUAVmxRQuF_a4PLju_) <sub>🆕 · 📅 2022</sub>
+* [**JavaScript (WebGL2)**: _WebGL2 voxel engine with greedy meshing, procedural terrain, first-person controls, and block interaction_](https://github.com/nwfella/GreedMesh) <sub>🆕 · 📅 2026</sub>
+* [**JavaScript (Three.js/WebGL)**: _Build a 3D Voxel Engine in WebGL_](https://www.mysimulator.uk/content/tutorials/voxel-engine.html) <sub>🆕 · 📅 2024</sub>
+* [**TypeScript**: _Voxel Engine_](https://github.com/Divine-Star-Software/DivineVoxelEngine) <sub>🆕 · 📅 2026</sub>
+* [**Rust (servidor) + TypeScript (cliente Three.js)**: _voxel-engine_](https://github.com/voxelize/voxelize) <sub>🆕 · 📅 2026</sub>
+* [**C++**: _A voxel engine in C++20 and OpenGL 4.1_](https://github.com/DanielWLiu07/voxel-engine) <sub>🆕 · 📅 2026</sub>
+* [**TypeScript**: _Greedy Meshing Algorithm for Voxel Volumes_](https://github.com/AThilenius/greedy_meshing) <sub>🆕 · 📅 2019</sub>
+* [**JavaScript (Three.js)**: _A simple voxel engine that creates procedural worlds with javascript and Three.js_](https://github.com/YigitGunduc/voxel-engine) <sub>🆕 · 📅 2021</sub>
+* [**TypeScript/WebGPU**: _Building a Voxel Engine with WebGPU_](https://www.teachme.sh/learn/building-a-voxel-engine) <sub>🆕</sub>
+* [**C++ (OpenGL)**: _SimpleVoxelEngine_](https://github.com/JamesRandall/SimpleVoxelEngine) <sub>🆕 · 📅 2017</sub>
 
 #### Build your own `Web Browser`
 
@@ -740,6 +811,8 @@ _Learning path: from the hardware up to the business model. Follow the steps in 
 * [**Rust**: _Serval - An Experimental Web Browser Engine written in Rust_](https://github.com/hayatoito/serval) <sub>🆕 · 📅 2019</sub>
 * [**Rust**: _manuk - towards a faster, leaner web browser_](https://github.com/patrickbdevaney/manuk) <sub>🆕 · 📅 2026</sub>
 * [**Rust**: _Experience Report: Developing the Servo Web Browser Engine using Rust_](https://arxiv.org/abs/1505.07383) <sub>🆕 · 📅 2015</sub>
+* [**Rust**: _Borrowser - A browser engine written from scratch in Rust_](https://github.com/joris97jansen/borrowser) <sub>🆕 · 📅 2026</sub>
+* [**Rust**: _FastRender - Experimental browser engine in Rust_](https://github.com/wilsonzlin/fastrender) <sub>🆕 · 📅 2026</sub>
 
 #### Build your own `Web Server`
 
